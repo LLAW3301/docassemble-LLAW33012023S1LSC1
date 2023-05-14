@@ -1,47 +1,54 @@
 ---
-question: Start
+# MISC SCREENS - ELENI
+question: Welcome to DriveWise!
 subquestion: |
-  disclaimer
-  incl. SA jurisdiction + not  legal advice
+  **DISCLAIMER:**
+  
+  DriveWise has been made to help with drink driving charges in South Australia. All information is for guiding purposes and should not be taken as legal advice. We         cannot promise that everything provided by DriveWise is completely accurate, current, or covers everything you need to know. DriveWise is not to blame for any losses suffered from using this app.
+  
+  If you are looking for free legal advice in South Australia, please call [1300 366 424](tel:1300 366 424).
 field: LSC_welcome_screen
 buttons: 
-  - Proceed: proceed
-  - Exit: exit
+  - I accept: proceed
+  - I do not accept: exit
 ---
 # MISC SCREENS - ELENI
-question: DD offence Question
+question: Welcome to DriveWise
 subquestion: |
-  screen content here - e.g. have you been charged with a drink driving offence?
+  Have you been charged with a drink driving offence?
 fields:
   - no label: LSC_charged_with_drink_driving_offence
     datatype: yesnoradio
 ---
-question: Other offence Question
+question: Welcome to DriveWise
 subquestion: |
-  if no to previous charged with other offence question 
+  Have you instead been charged with a different offence? 
 fields: 
   - no label: LSC_charged_with_other
     datatype: yesnoradio
 ---
-question: Not charged with other- seeking general info
+question: DriveWise has been made to provide information about drink driving offences
 subquestion: |
-  screen content 
+  If you are looking for information about a different legal issue, please click [here](https://lsc.sa.gov.au) to be directed to the Legal Services Commission website for further help.
+   
 field: LSC_seeking_gen_info
 buttons: 
   - Proceed: proceed
   - Exit: exit
 ---
 event: LSC_gen_info_screen
-question: End
+question: Thank you for using DriveWise!
 subquestion: |
-  display LSC drink driving fact sheet + help line
+  The Legal Services Commission has a [Live Chat Service](https://secure.livechatinc.com/licence/6327061/v2/open_chat.cgi?groups=0) and a drink driving [fact sheet](https://lsc.sa.gov.au/cb_pages/drinkdrivingfactsheet.php) that may be helpful.
+  
+  Please contact the [Legal Help Line](tel:1300 366 424) if you are needing further help
 buttons: 
   - Exit: exit 
   - Restart: restart
 ---
-question: Yes charged with other 
+question: You have shown you have been charged with a different offence.
 subquestion: |
-  LSC directory link
+  If you are looking for information about different legal issues, please click [here](https://lsc.sa.gov.au/) to be directed to the Legal Services Commission website for   further help.
 field: LSC_directory_Screen
 buttons: 
   - Proceed: proceed
@@ -49,13 +56,13 @@ buttons:
 ---
 question: What is the drink driving offence you have been charged with?
 subquestion: |
-  If you would like to know more about how (charge) will effect you, please select...
+  If you would like to know more about how your drink driving charge will effect you, please select which of the following you have been charged with.
 fields: 
   - no label: LSC_define_charge
     datatype: radio
     choices:
       - Driving Under the Influence (DUI): LSC_DUI
-      - Exeeded Perscribed Concentration of Alcohol (PCA): LSC_PCA
+      - Exeeded Prescribed Concentration of Alcohol (PCA): LSC_PCA
       - Refusing a Breath Test: LSC_RT 
 ---
 # DUI SCREENS - KYLA
@@ -91,9 +98,11 @@ buttons:
 ---
 # MISC SCREEN - ELENI
 event: LSC_end_screen
-question: End
+question: Thank you for using DriveWise!
 subquestion: |
-  sample text: we hope this has been helpful, for further guidance please reach out the LSC at (08) 8223 2999
+  sample text: we hope this has been helpful, if you have any further questions or require assistance please contact the our [Legal Help Line](tel:1300 366 424). 
+  
+  The Legal Services Commission also have a [Live Chat Service](https://secure.livechatinc.com/licence/6327061/v2/open_chat.cgi?groups=0) and a drink driving [fact sheet](https://lsc.sa.gov.au/cb_pages/drinkdrivingfactsheet.php) which can be accessed Moday to Friday 9am to 4:30pm. 
 buttons: 
   - Exit: exit
   - Restart: restart 
@@ -121,7 +130,7 @@ fields:
   - no label: LSC_first_offence_question_yes_c_DUI
     datatype: yesnoradio 
 ---
-question: Penlties for Driving Under the Influence with a Child Present 
+question: Penalties for Driving Under the Influence with a Child Present 
 subquestion: |
   If this is not the first time you have been charged with a DUI offence, then you will be fined between $1900 and $2900.
  
@@ -138,7 +147,7 @@ buttons:
 ---
 question: Penalties for First Driving Under the Influence Charge with a Child Present
 subquestion: |
-  If this is your first DUI offence you have been charged with, and you had a child under the age of 16 in the car, then you will be fined between $1100 and $1600.
+  If this is the first DUI offence you have been charged with, and you had a child under the age of 16 in the car, then you will be fined between $1100 and $1600.
  
   Or, you may face up to 3 months imprisonment, you will need to undergo an alcohol dependency assessment and get 6 demerit points.
  
@@ -170,7 +179,7 @@ question: Penalties for a Subsequent Refusing a Breath Alcohol Test Charge
 subquestion: |
   You should expect to see a $1900 - $2900 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 36 months. If you would like to learn more, please click here. 
   
-  You have committed what is known as a ‘serious offence’. Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 3 years, you will have the device attached to your vehicle for another 3 years once you have your licence back. 
+  You have committed what is known as a ‘serious offence’. Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 36 months, you will have the device attached to your vehicle for another 36 months once you have your licence back. 
   
   These devices are about the size of a smartphone and are attached to your car. You will be responsible for all costs of attaching it to your vehicle and for its upkeep.
   
@@ -187,7 +196,7 @@ question: Penalties for a Subsequent Refusing a Breath Alcohol Test Charge with 
 subquestion: |
   You should expect to see a $1900 - $2900 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 36 months. You will also need to do an alcohol dependence assessment. If you would like to learn more, please click here. 
   
-  You have committed what is known as a ‘serious offence’. Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 3 years, you will have the device attached to your vehicle for another 3 years once you have your licence back. 
+  You have committed what is known as a ‘serious offence’. Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 36 months, you will have the device attached to your vehicle for another 36 months once you have your licence back. 
   
   These devices are about the size of a smartphone and are attached to your car. You will be responsible for all costs of attaching it to your vehicle and for its upkeep.
   
@@ -209,9 +218,9 @@ fields:
 ---
 question: Penalties for Refusing a Breath Alcohol Test
 subquestion: |
-  You should expect to get a $1160 - $1600 fine and 6 demerit points. If you are {convicted}, your driver’s licence will be taken away for at least 12 months from the date of the offence. 
+  You should expect to get a $1160 - $1600 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 12 months from the date of the offence. 
   
-  You have committed what is known as a ‘serious offence’. Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 3 years, you will have the device attached to your vehicle for another 3 years once you have your licence back. 
+  You have committed what is known as a ‘serious offence’. Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 36 months, you will have the device attached to your vehicle for another 36 months once you have your licence back. 
   
   These devices are about the size of a smartphone and are attached to your car. You will be responsible for all costs of attaching it to your vehicle and for its upkeep.
   
@@ -228,7 +237,7 @@ question: Penalties for Refusing a Breath Alcohol Test with a Child Present
 subquestion: |
   You should expect to get a $1160 - $1600 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 12 months from the date of the offence. You will also need to do an alcohol dependence assessment. 
   
-  You have committed what is known as a ‘serious offence’. Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 3 years, you will have the device attached to your vehicle for another 3 years once you have your licence back. 
+  You have committed what is known as a ‘serious offence’. Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 36 months, you will have the device attached to your vehicle for another 36 months once you have your licence back. 
   
   These devices are about the size of a smartphone and are attached to your car. You will be responsible for all costs of attaching it to your vehicle and for its upkeep.
   
@@ -242,36 +251,36 @@ buttons:
   - Exit: exit
 ---
 # PCA SCREENS - JOSH
-question: Exceed the Perscribed Concentration of Alcohol
+question: Exceeding the Prescribed Concentration of Alcohol
 subquestion: |
-  The perscribed concentration of alcohol (PCA) which is allowed whilst driving a vehicle differs depending on whether you hold a learners/provisional licence or full licence.
+  The prescribed concentration of alcohol (PCA) which is allowed whilst driving a vehicle differs depending on whether you hold a learner' permit, provisional licence, or full licence.
   
   What kind of lience did you have at the time you were charged?
 fields:
   - no label: LSC_licence_class
     datatype: radio
     choices:
-      - Learners or Provisional licence: LSC_learners_provisional
+      - Learner's permit or Provisional licence: LSC_learners_provisional
       - Full licence: LSC_full_license 
 ---
-question: Penalties for Exceeding the Perscribed Concentration of Alcohol with a Learners or Provisional Licence
+question: Penalties for Exceeding the Prescribed Concentration of Alcohol with a Learners Permit or Provisional Licence
 subquestion: |
-  provisional licence PCA penalties screen
+  Driving with any concentration of alcohol in your bloodstream while on a provisional license or learner's permit is not only an offence but also a breach of license conditions. We advise contacting us directly for further advice.
 field: LSC_provisional_PCA
 buttons: 
   - Proceed: proceed
   - Exit: exit
 ---
-question: Exceed Perscribed Concentration of Alcohol 
+question: Exceeding Prescribed Concentration of Alcohol 
 subquestion: |
-  Is this your first time being charged with an exceeding the Perscribed Concentration of Alcohol offence?
+  Is this your first time being charged with an exceeding the Prescribed Concentration of Alcohol offence?
 fields:
   - no label: LSC_PCA_first_offence_question
     datatype: yesnoradio 
 ---
-question: Exceed Perscribed Concentration of Alcohol
+question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
-  What was you blood alcohol concentration at the time you were charged?
+  What was your blood alcohol concentration at the time you were charged?
 fields: 
   - no label: LSC_BAC_range_question
     datatype: radio
@@ -280,7 +289,7 @@ fields:
       - Between 0.08 - 0.15: LSC_mid_BCA
       - Greater than 0.15: LSC_high_BAC
 ---
-question: Penalties for Exceeding the Perscribed Concentration of Alcohol (Below 0.08)
+question: Penalties for Exceeding the Prescribed Concentration of Alcohol (Below 0.08)
 subquestion: |
   If this is your first time blowing over the limit you will be fined $1100 and receive 4 demerit points. If convicted you will be disqualified from driving for at least 3 months.
   
@@ -291,14 +300,14 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Exceed Perscribed Concentration of Alcohol
+question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the PCA offence?
 fields:
   - no label: LSC_PCA_FO_PCA_mid_BAC_child_question
     datatype: yesnoradio 
 ---
-question: Penalties for Exceeding the Perscribed Concentration of Alcohol (Between 0.08 - 0.15)
+question: Penalties for Exceeding the Prescribed Concentration of Alcohol (Between 0.08 - 0.15)
 subquestion: |
   If this is your first time blowing over the limit you will be fined between $900 - $1300 and receive 5 demerit points. If convicted you will be disqualified from driving for at least 6 months.
   
@@ -309,7 +318,7 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Penalties for Exceeding the Perscribed Concentration of Alcohol with a Child Present 
+question: Penalties for Exceeding the Prescribed Concentration of Alcohol with a Child Present 
 subquestion: |
   If this is your first time blowing over the limit you will be fined between $900 - $1300 and receive 5 demerit points. If convicted you will be disqualified from driving for at least 6 months.
 
@@ -322,14 +331,14 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Exceed Perscribed Concentration of Alcohol
+question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the PCA offence?
 fields:
   - no label: LSC_PCA_FO_high_BAC_child_question
     datatype: yesnoradio 
 ---
-question: Penalties for Exceeding the Perscribed Concentration of Alcohol (Above 0.15) 
+question: Penalties for Exceeding the Prescribed Concentration of Alcohol (Above 0.15) 
 subquestion: |
   If this is your first time blowing over the limit you will be fined between $1100 - $1600 and receive 6 demerit points. If convicted you will be disqualified from driving for at least 12 months.
   
@@ -340,7 +349,7 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Penalties for Exceeding the Perscribed Concentration of Alcohol with a Child Present 
+question: Penalties for Exceeding the Prescribed Concentration of Alcohol with a Child Present 
 subquestion: |
   If this is your first time blowing over the limit you will be fined between $1100 - $1600 and receive 6 demerit points. If convicted you will be disqualified from driving for at least 12 months.
 
@@ -353,22 +362,22 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Exceed Perscribed Concentration of Alcohol
+question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
-  You have indicated that you have previously been charged with an exceed PCA offence. 
+  You have indicated that you have previously been charged with a PCA offence. 
   
-  Which offence have you currently been charged with? 
+  Which offence are you currently being charged with? 
 fields:
   - no label: LSC_PCA_subsequent_offence_number_question
     datatype: radio 
     choices:
       - Second offence: LSC_PCA_second
       - Third offence: LSC_PCA_third
-      - Fourth of subsequent offence: LSC_PCA_subsequent
+      - Fourth or subsequent offence: LSC_PCA_subsequent
 ---
-question: Exceed Perscribed Concentration of Alcohol - Second Offence
+question: Exceeding Prescribed Concentration of Alcohol - Second Offence
 subquestion: |
-  What was you blood alcohol concentration at the time you were charged?
+  What was your blood alcohol concentration at the time you were charged?
 fields: 
   - no label: LSC_PCA_SO_BAC_question
     datatype: radio
@@ -377,9 +386,9 @@ fields:
       - Between 0.08 - 0.15: LSC_mid_BAC_so
       - Greater than 0.15: LSC_high_BAC_so
 ---
-question: Exceed Perscribed Concentration of Alcohol - Third Offence
+question: Exceeding Prescribed Concentration of Alcohol - Third Offence
 subquestion: |
-  What was you blood alcohol concentration at the time you were charged?
+  What was your blood alcohol concentration at the time you were charged?
 fields: 
   - no label: LSC_PCA_TO_BAC_question
     datatype: radio
@@ -388,9 +397,9 @@ fields:
       - Between 0.08 - 0.15: LSC_mid_BAC_to
       - Greater than 0.15: LSC_high_BAC_to
 ---
-question: Exceed Perscribed Concentration of Alcohol - Fourth or Subsequent Offence
+question: Exceeding Prescribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
-  What was you blood alcohol concentration at the time you were charged?
+  What was your blood alcohol concentration at the time you were charged?
 fields:
   - no label: LSC_PCA_SUB_BAC_question
     datatype: radio 
@@ -399,7 +408,7 @@ fields:
       - Between 0.08 - 0.15: LSC_SUB_mid_BAC
       - Greater than 0.15: LSC_SUB_high_BAC
 ---
-question: Penalties for Second Exceeding Perscribed Concentration of Alcohol Offence (Below 0.08)
+question: Penalties for Second Exceeding Prescribed Concentration of Alcohol Offence (Below 0.08)
 subquestion: |
   If this is your second time blowing over the limit you will be fined $1100 and receive 4 demerit points. If convicted you will be disqualified from driving for at least 6 months.
   
@@ -410,14 +419,14 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Exceed Perscribed Concentration of Alcohol - Second Offence
+question: Exceeding Prescribed Concentration of Alcohol - Second Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with current the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current PCA offence?
 fields:
   - no label: LSC_PCA_SO_mid_BAC_child_question
     datatype: yesnoradio 
 ---
-question: Penalties for Second Exceeding Perscribed Concentration of Alcohol Offence (Between 0.08 - 0.15)
+question: Penalties for Second Exceeding Prescribed Concentration of Alcohol Offence (Between 0.08 - 0.15)
 subquestion: |
   If this is your second time blowing over the limit you will be fined between $1100 - $1600 and receive 5 demerit points. If convicted you will be disqualified from driving for at least 12 months. 
   
@@ -428,7 +437,7 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Penalties for Second Exceeding Perscribed Concentration of Alcohol Offence with Child Present 
+question: Penalties for Second Exceeding Prescribed Concentration of Alcohol Offence with Child Present 
 subquestion: |
   If this is your second time blowing over the limit you will be fined between $1100 - $1600 and receive 5 demerit points. If convicted you will be disqualified from driving for at least 12 months.
 
@@ -441,14 +450,14 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Exceed Perscribed Concentration of Alcohol - Second Offence
+question: Exceeding Prescribed Concentration of Alcohol - Second Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with current the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current PCA offence?
 fields:
   - no label: LSC_PCA_SO_high_BAC_child_question
     datatype: yesnoradio 
 ---
-question: Penalties for Second Exceeding Perscribed Concentration of Alcohol Offence (Above 0.15)
+question: Penalties for Second Exceeding Prescribed Concentration of Alcohol Offence (Above 0.15)
 subquestion: |
   If this is your second time blowing over the limit you will be fined between $1600 - $2400 and receive 6 demerit points. If convicted you will be disqualified from driving for at least 36 months.
   
@@ -459,7 +468,7 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Penalties for Second Exceeding Perscribed Concentration of Alcohol Offence with Child Present 
+question: Penalties for Second Exceeding Prescribed Concentration of Alcohol Offence with Child Present 
 subquestion: |
   If this is your second time blowing over the limit you will be fined between $1600 - $2400 and receive 6 demerit points. If convicted you will be disqualified from driving for at least 36 months.
 
@@ -472,7 +481,7 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Penalties for Third Exceeding Perscribed Concentration of Alcohol Offence (Below 0.08)
+question: Penalties for Third Exceeding Prescribed Concentration of Alcohol Offence (Below 0.08)
 subquestion: |
   If this is your third time blowing over the limit you will be fined $1100 and receive 4 demerit points. If convicted you will be disqualified from driving for at least 9 months.
   
@@ -483,14 +492,14 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Exceed Perscribed Concentration of Alcohol - Third Offence
+question: Exceeding Prescribed Concentration of Alcohol - Third Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with current the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current PCA offence?
 fields:
   - no label: LSC_PCA_TO_mid_BAC_child_question
     datatype: yesnoradio 
 ---
-question: Penalties for Third Exceeding Perscribed Concentration of Alcohol Offence with Child Present
+question: Penalties for Third Exceeding Prescribed Concentration of Alcohol Offence with Child Present
 subquestion: |
   If this is your third time blowing over the limit you will be fined between $1500 - $2200 and receive 5 demerit points. If convicted you will be disqualified from driving for at least 24 months
 
@@ -503,7 +512,7 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Penalties for Third Exceeding Perscribed Concentration of Alcohol Offence (Between 0.08 - 0.15)
+question: Penalties for Third Exceeding Prescribed Concentration of Alcohol Offence (Between 0.08 - 0.15)
 subquestion: |
   If this is your third time blowing over the limit you will be fined between $1500 - $2200 and receive 5 demerit points. If convicted you will be disqualified from driving for at least 24 months.
   
@@ -514,14 +523,14 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Exceed Perscribed Concentration of Alcohol - Third Offence
+question: Exceeding Prescribed Concentration of Alcohol - Third Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with current the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current PCA offence?
 fields:
   - no label: LSC_PCA_TO_high_BAC_child_question
     datatype: yesnoradio 
 ---
-question: Penalties for Third Exceeding Perscribed Concentration of Alcohol Offence with Child Present
+question: Penalties for Third Exceeding Prescribed Concentration of Alcohol Offence with Child Present
 subquestion: |
   If this is your second time blowing over the limit you will be fined between $1900 - $2900 and receive 6 demerit points. If convicted you will be disqualified from driving for at least 36 months.
 
@@ -535,7 +544,7 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Penalties for Third Exceeding Perscribed Concentration of Alcohol Offence (Above 0.15)
+question: Penalties for Third Exceeding Prescribed Concentration of Alcohol Offence (Above 0.15)
 subquestion: |
   If this is your second time blowing over the limit you will be fined between $1900 - $2900 and receive 6 demerit points. If convicted you will be disqualified from driving for at least 36 months.
   
@@ -546,7 +555,7 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Penalties for Fourth or Subsequent Exceeding Perscribed Concentration of Alcohol Offence (Below 0.08)
+question: Penalties for Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence (Below 0.08)
 subquestion: |
   If you have blown over the limit more than three times previously, you will be fined $1100 and receive 4 demerit points. If convicted you will be disqualified from driving for at least 12 months.
   
@@ -557,14 +566,14 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Exceed Perscribed Concentration of Alcohol - Fourth or Subsequent Offence
+question: Exceeding Prescribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with current the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current PCA offence?
 fields:
   - no label: LSC_PCA_SUB_mid_BAC_child_quesiton
     datatype: yesnoradio 
 ---
-question: Penalties for Fourth or Subsequent Exceeding Perscribed Concentration of Alcohol Offence with Child Present
+question: Penalties for Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence with Child Present
 subquestion: |
   If you have blown over the limit more than three times previously, you will be fined between $1500 - $2200 and receive 5 demerit points. If convicted you will be disqualified from driving for at least 24 months.
 
@@ -577,7 +586,7 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Penalties for Fourth or Subsequent Exceeding Perscribed Concentration of Alcohol Offence (Between 0.08 - 0.15)
+question: Penalties for Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence (Between 0.08 - 0.15)
 subquestion: |
   If you have blown over the limit more than three times previously, you will be fined between $1500 - $2200 and receive 5 demerit points. If convicted you will be disqualified from driving for at least 24 months.
   
@@ -588,14 +597,14 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Exceed Perscribed Concentration of Alcohol - Fourth or Subsequent Offence
+question: Exceeding Prescribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with current the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current PCA offence?
 fields:
   - no label: LSC_PCA_SUB_high_BAC_child_question
     datatype: yesnoradio
 ---
-question: Penalties for Fourth or Subsequent Exceeding Perscribed Concentration of Alcohol Offence with Child Present
+question: Penalties for Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence with Child Present
 subquestion: |
   If you have blown over the limit more than three times previously, you will be fined between $1900 - $2900 and receive 6 demerit points. If convicted you will be disqualified from driving for at least 36 months.
 
@@ -608,7 +617,7 @@ buttons:
   - Proceed: proceed
   - Exit: exit
 ---
-question: Penalties for Fourth or Subsequent Exceeding Perscribed Concentration of Alcohol Offence (Above 0.15)
+question: Penalties for Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence (Above 0.15)
 subquestion: |
   If you have blown over the limit more than three times previously, you will be fined between $1900 - $2900 and receive 6 demerit points. If convicted you will be disqualified from driving for at least 36 months.
   
