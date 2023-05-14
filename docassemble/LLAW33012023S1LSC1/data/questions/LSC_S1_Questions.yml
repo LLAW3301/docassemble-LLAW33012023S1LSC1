@@ -168,7 +168,7 @@ fields:
 ---
 question: Penalties for a Subsequent Refusing a Breath Alcohol Test Charge
 subquestion: |
-  You should expect to see a $1900 - $2900 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 36 months. If you would like to learn more, please click here. 
+  You should expect to see a $1900 - $2900 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 3 years. If you would like to learn more, please click here. 
   
   You have committed what is known as a ‘serious offence’. Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 3 years, you will have the device attached to your vehicle for another 3 years once you have your licence back. 
   
@@ -185,7 +185,7 @@ buttons:
 ---
 question: Penalties for a Subsequent Refusing a Breath Alcohol Test Charge with a  Child Present
 subquestion: |
-  You should expect to see a $1900 - $2900 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 36 months. You will also need to do an alcohol dependence assessment. If you would like to learn more, please click here. 
+  You should expect to see a $1900 - $2900 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 3 years. You will also need to do an alcohol dependence assessment. If you would like to learn more, please click here. 
   
   You have committed what is known as a ‘serious offence’. Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 3 years, you will have the device attached to your vehicle for another 3 years once you have your licence back. 
   
@@ -293,7 +293,7 @@ buttons:
 ---
 question: Exceed Perscribed Concentration of Alcohol
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the exceed PCA offence?
 fields:
   - no label: LSC_PCA_FO_PCA_mid_BAC_child_question
     datatype: yesnoradio 
@@ -324,7 +324,7 @@ buttons:
 ---
 question: Exceed Perscribed Concentration of Alcohol
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the exceed PCA offence?
 fields:
   - no label: LSC_PCA_FO_high_BAC_child_question
     datatype: yesnoradio 
@@ -412,7 +412,7 @@ buttons:
 ---
 question: Exceed Perscribed Concentration of Alcohol - Second Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with current the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current exceed PCA offence?
 fields:
   - no label: LSC_PCA_SO_mid_BAC_child_question
     datatype: yesnoradio 
@@ -443,7 +443,7 @@ buttons:
 ---
 question: Exceed Perscribed Concentration of Alcohol - Second Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with current the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current exceed PCA offence?
 fields:
   - no label: LSC_PCA_SO_high_BAC_child_question
     datatype: yesnoradio 
@@ -485,7 +485,7 @@ buttons:
 ---
 question: Exceed Perscribed Concentration of Alcohol - Third Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with current the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current exceed PCA offence?
 fields:
   - no label: LSC_PCA_TO_mid_BAC_child_question
     datatype: yesnoradio 
@@ -516,7 +516,7 @@ buttons:
 ---
 question: Exceed Perscribed Concentration of Alcohol - Third Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with current the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current exceed PCA offence?
 fields:
   - no label: LSC_PCA_TO_high_BAC_child_question
     datatype: yesnoradio 
@@ -559,7 +559,7 @@ buttons:
 ---
 question: Exceed Perscribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with current the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current exceed PCA offence?
 fields:
   - no label: LSC_PCA_SUB_mid_BAC_child_quesiton
     datatype: yesnoradio 
@@ -590,7 +590,7 @@ buttons:
 ---
 question: Exceed Perscribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the tim eyou were chargeed with current the exceed PCA offence?
+  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current exceed PCA offence?
 fields:
   - no label: LSC_PCA_SUB_high_BAC_child_question
     datatype: yesnoradio
