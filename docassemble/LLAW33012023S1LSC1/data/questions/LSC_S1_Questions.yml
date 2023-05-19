@@ -11,6 +11,7 @@ field: LSC_welcome_screen
 buttons: 
   - I accept: proceed
   - I do not accept: exit
+    color: danger
 ---
 # MISC SCREENS - ELENI
 question: Welcome to DriveWise
@@ -19,7 +20,6 @@ subquestion: |
 fields:
   - no label: LSC_charged_with_drink_driving_offence
     datatype: yesnoradio
-section: TYPE OF OFFENCE
 ---
 question: Welcome to DriveWise
 subquestion: |
@@ -36,6 +36,7 @@ field: LSC_seeking_gen_info
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 event: LSC_gen_info_screen
 question: Thank you for using DriveWise!
@@ -44,7 +45,8 @@ subquestion: |
   
   Please contact the [Legal Help Line](tel:1300 366 424) if you are needing further help
 buttons: 
-  - Exit: exit 
+  - Exit: exit
+    color: danger
   - Restart: restart
 ---
 question: You have shown you have been charged with a different offence.
@@ -54,6 +56,7 @@ field: LSC_directory_Screen
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: What is the drink driving offence you have been charged with?
 subquestion: |
@@ -96,6 +99,7 @@ field: LSC_subsequent_offence_no_c
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 # MISC SCREEN - ELENI
 event: LSC_end_screen
@@ -106,6 +110,7 @@ subquestion: |
   The Legal Services Commission also have a [Live Chat Service](https://secure.livechatinc.com/licence/6327061/v2/open_chat.cgi?groups=0) and a drink driving [fact sheet](https://lsc.sa.gov.au/cb_pages/drinkdrivingfactsheet.php) which can be accessed Moday to Friday 9am to 4:30pm. 
 buttons: 
   - Exit: exit
+    color: danger
   - Restart: restart 
 ---
 # DUI SCREENS - KYLA
@@ -123,6 +128,7 @@ field: LSC_first_offence_no_c
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Driving Under the Influence
 subquestion: |
@@ -145,6 +151,7 @@ field: LSC_subsequent_offence_yes_c
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for First Driving Under the Influence Charge with a Child Present
 subquestion: |
@@ -160,6 +167,7 @@ field: LSC_first_offence_yes_c
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 # REFUSE BREATH TEST SCREENS - ANARA
 question: Refusing a Breath Alcohol Test
@@ -192,6 +200,7 @@ field: LSC_subsequent_RT_no_c
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for a Subsequent Refusing a Breath Alcohol Test Charge with a  Child Present
 subquestion: |
@@ -209,6 +218,7 @@ field: LSC_subsequent_RT_yes_c
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Refusing a Breath Alcohol Test
 subquestion: |
@@ -233,6 +243,7 @@ field: LSC_first_RT_no_c
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for Refusing a Breath Alcohol Test with a Child Present
 subquestion: |
@@ -250,6 +261,7 @@ field: LSC_first_RT_yes_c
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 # PCA SCREENS - JOSH
 question: Exceeding the Prescribed Concentration of Alcohol
@@ -271,6 +283,7 @@ field: LSC_provisional_PCA
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Exceeding Prescribed Concentration of Alcohol 
 subquestion: |
@@ -300,6 +313,7 @@ field: LSC_FO_PCA_low_BAC
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
@@ -318,6 +332,7 @@ field: LSC_FO_PCA_mid_BAC_no_c
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for Exceeding the Prescribed Concentration of Alcohol with a Child Present 
 subquestion: |
@@ -331,6 +346,7 @@ field: LSC_FO_PCA_mid_BAC_yes_c
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
@@ -349,6 +365,7 @@ field: LSC_PCA_FO_high_BAC_no_c
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for Exceeding the Prescribed Concentration of Alcohol with a Child Present 
 subquestion: |
@@ -362,6 +379,7 @@ field: LSC_PCA_FO_high_BAC_child_y
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
@@ -419,6 +437,7 @@ field: LSC_PCA_SO_low_BAC
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Second Offence
 subquestion: |
@@ -437,6 +456,7 @@ field: LSC_PCA_SO_mid_BAC_child_n
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for Second Exceeding Prescribed Concentration of Alcohol Offence with Child Present 
 subquestion: |
@@ -450,6 +470,7 @@ field: LSC_PCA_SO_mid_BAC_child_y
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Second Offence
 subquestion: |
@@ -468,6 +489,7 @@ field: LSC_PCA_high_BAC_child_n
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for Second Exceeding Prescribed Concentration of Alcohol Offence with Child Present 
 subquestion: |
@@ -481,6 +503,7 @@ field: LSC_PCA_high_BAC_child_y
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for Third Exceeding Prescribed Concentration of Alcohol Offence (Below 0.08)
 subquestion: |
@@ -492,6 +515,7 @@ field: LSC_PCA_TO_low_BAC
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Third Offence
 subquestion: |
@@ -512,6 +536,7 @@ field: LSC_PCA_TO_mid_BAC_child_y
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for Third Exceeding Prescribed Concentration of Alcohol Offence (Between 0.08 - 0.15)
 subquestion: |
@@ -523,6 +548,7 @@ field: LSC_PCA_TO_mid_BAC_child_n
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Third Offence
 subquestion: |
@@ -544,6 +570,7 @@ field: LSC_PCA_TO_high_BAC_child_y
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for Third Exceeding Prescribed Concentration of Alcohol Offence (Above 0.15)
 subquestion: |
@@ -555,6 +582,7 @@ field: LSC_PCA_TO_high_BAC_child_n
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence (Below 0.08)
 subquestion: |
@@ -566,6 +594,7 @@ field: LSC_SUB_low_BAC
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
@@ -586,6 +615,7 @@ field: LSC_PCA_SUB_mid_BAC_child_y
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence (Between 0.08 - 0.15)
 subquestion: |
@@ -597,6 +627,7 @@ field: LSC_PCA_SUB_mid_BAC_child_n
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
@@ -617,6 +648,7 @@ field: LSC_PCA_SUB_high_BAC_child_y
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---
 question: Penalties for Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence (Above 0.15)
 subquestion: |
@@ -628,4 +660,5 @@ field: LSC_PCA_SUB_high_BAC_child_n
 buttons: 
   - Proceed: proceed
   - Exit: exit
+    color: danger
 ---

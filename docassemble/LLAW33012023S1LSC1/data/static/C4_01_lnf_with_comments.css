@@ -32,6 +32,42 @@
     background-color: rgb(255,255,255) !important;
 }
 
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+span {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #333;
+}
+
+span {
+  color: #333;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 14px;
+}
+
+span {
+  font-size: 14px;
+}
+
 /* This sets the colour of the 'Source' link in the navbar */
 .navbar .nav-item a{
     color: rgb(0,0,0) !important;
@@ -67,6 +103,13 @@
   background-color: rgba(46,75,98,0.5);
   border-color: rgb(0,0,0);
 }
+
+.btn-danger{
+  color: rgb(255,255,255);
+  background-color: rgba(139,0,0);
+  border-color: rgb(0,0,0);
+}
+
 
 /* You can make your own styles from scratch if you wish.  There's a lot
   you can do with styles - much more than setting font sizes and colours.
