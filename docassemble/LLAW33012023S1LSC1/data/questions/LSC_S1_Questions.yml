@@ -19,6 +19,7 @@ subquestion: |
 fields:
   - no label: LSC_charged_with_drink_driving_offence
     datatype: yesnoradio
+section: TYPE OF OFFENCE
 ---
 question: Welcome to DriveWise
 subquestion: |

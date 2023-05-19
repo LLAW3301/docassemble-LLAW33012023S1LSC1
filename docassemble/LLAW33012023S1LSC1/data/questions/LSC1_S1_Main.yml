@@ -1,3 +1,15 @@
+sections: 
+  - TYPE OF OFFENCE
+---
+objects:
+  - LSCLOGO: DAStaticFile.using(filename='lscsa-logo.png')
+---
+mandatory: True
+code: |
+  set_parts(logo='<img src="' + LSCLOGO.url_for() + '" style="height: 50px; width: 157px;">')
+---
+features: 
+  navigation: True
 ---
 include: 
   - LSC_S1_Questions.yml
