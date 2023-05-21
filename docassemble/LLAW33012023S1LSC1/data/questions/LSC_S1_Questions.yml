@@ -65,7 +65,7 @@ fields:
       - Exeeded Prescribed Concentration of Alcohol (PCA): LSC_PCA
       - Refusing a Breath Test: LSC_RT 
 ---
-# DUI SCREENS - KYLA HELLO
+# DUI SCREENS - KYLA ward
 question: Driving Under the Influence
 subquestion: |
   Was a child under the age of 16 with you in the car at the time you were charged with Driving Under the Influence?
@@ -179,7 +179,7 @@ question: Penalties for a Subsequent Refusing a Breath Alcohol Test Charge
 subquestion: |
   You should expect to see a **$1,900 - $2,900 fine** and **6 demerit points**. If you are convicted, your driver’s licence will be taken away for **at least 36 months**. If you would like to learn more, please click here. 
   
-  You have committed what is known as a **‘serious offence’**. Because of this, you will also have an **‘alcohol interlock device’** fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 36 months, you will have the device attached to your vehicle for ***another 36 month*s once you have your licence back. 
+  You have committed what is known as a **‘serious offence’**. Because of this, you will also have an **‘alcohol interlock device’** fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 36 months, you will have the device attached to your vehicle for **another 36 months** once you have your licence back. 
   
   These devices are about the size of a smartphone and are attached to your car. You will be responsible for all costs of attaching it to your vehicle and for its upkeep.
   
