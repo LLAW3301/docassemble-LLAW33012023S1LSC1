@@ -247,13 +247,34 @@ buttons:
 ---
 question: Penalties for Refusing a Breath Alcohol Test with a Child Present
 subquestion: |
-  You should expect to get a $1160 - $1600 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 12 months from the date of the offence. You will also need to do an alcohol dependence assessment. 
-  
-  You have committed what is known as a ‘serious offence’. Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 36 months, you will have the device attached to your vehicle for another 36 months once you have your licence back. 
-  
-  These devices are about the size of a smartphone and are attached to your car. You will be responsible for all costs of attaching it to your vehicle and for its upkeep.
-  
-  There are strict requirements for drivers with these devices and it is an offence to break any of the conditions of the scheme. You will be told these conditions prior to your use, but if you would like to learn more, please click here.
+
+  <table>
+  <tr>
+    <td>[FILE lscsa-logo.png, 150px]</td>
+    <td>
+      You should expect to get a $1160 - $1600 fine and 6 demerit points. 
+      If you are convicted, your driver’s licence will be taken away for at least 
+      12 months from the date of the offence. You will also need to do an alcohol 
+      dependence assessment.
+    </td>
+  </tr>
+  <tr>
+    <td>Demerit points image</td>
+    <td>
+      Text about how many demerit points
+    </td>
+  </tr>
+  <tr>
+    <td>Serious offence image</td>
+    <td>
+      You have committed what is known as a ‘serious offence’. Because of this, 
+      you will also have an ‘alcohol interlock device’ fitted to your vehicle for 
+      the same time that your licence is disqualified for. For example, if your 
+      licence is disqualified for 36 months, you will have the device attached to 
+      your vehicle for another 36 months once you have your licence back.
+    </td>
+  </tr>
+  </table>
   
   Please click **proceed** to view next steps and important resources that may be able to assist you.  
 
