@@ -44,6 +44,10 @@ span {
   font-family: "Open Sans", sans-serif;
 }
 
+td {
+  font-family: "Open Sans", sans-serif;
+}
+
 h1 {
   color: #333;
 }
@@ -53,6 +57,10 @@ p {
 }
 
 span {
+  color: #333;
+}
+
+td {
   color: #333;
 }
 
@@ -66,6 +74,36 @@ p {
 
 span {
   font-size: 14px;
+}
+
+td {
+  font-size: 14px;
+}
+
+td {
+    text-align: auto;
+}
+
+/* styles.css */
+td.first-column {
+  padding-right: 20px;
+  vertical-align: top;
+} 
+
+td.second-column {
+  vertical-align: top;
+}
+
+th, td {
+  padding: 8px;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* This sets the colour of the 'Source' link in the navbar */

@@ -4,7 +4,7 @@ objects:
 ---
 mandatory: True
 code: |
-  set_parts(logo='<img src="' + LSCLOGO.url_for() + '" style="height: 70px; width: 180px;">')
+  set_parts(logo='<img src="' + LSCLOGO.url_for() + '" style="height: 76px; width: 200px;">')
 ---
 features: 
   css: C4_01_lnf_with_comments.css

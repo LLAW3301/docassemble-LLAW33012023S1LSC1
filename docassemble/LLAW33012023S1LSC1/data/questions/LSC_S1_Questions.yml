@@ -2,9 +2,16 @@
 # MISC SCREENS - ELENI
 question: Welcome to DriveWise!
 subquestion: |
+
+  <table>
+  <tr>
+    <td>[FILE Welcome.png, 440px]</td>
+    <td>
+  </tr>
+  </table>
   **DISCLAIMER:**
   
-  DriveWise has been made to help with drink driving charges in South Australia. All information is for guiding purposes and should not be taken as legal advice. We         cannot promise that everything provided by DriveWise is completely accurate, current, or covers everything you need to know. DriveWise is not to blame for any losses suffered from using this app.
+  DriveWise has been made to help with drink driving charges in South Australia. All information is for guiding purposes and should not be taken as legal advice. We cannot promise that everything provided by DriveWise is completely accurate, current, or covers everything you need to know. DriveWise is not to blame for any losses suffered from using this app.
   
   If you are looking for free legal advice in South Australia, please call [1300 366 424](tel:1300 366 424).
 field: LSC_welcome_screen
@@ -61,13 +68,22 @@ buttons:
 question: What is the drink driving offence you have been charged with?
 subquestion: |
   If you would like to know more about how your drink driving charge will effect you, please select which of the following you have been charged with.
+
+  <table>
+  <tr>
+    <td>[FILE What_are_the_Offences.png, 300px]</td>
+    <td>
+  </tr>
+  </table>
+  
 fields: 
   - no label: LSC_define_charge
     datatype: radio
     choices:
       - Driving Under the Influence (DUI): LSC_DUI
       - Exeeded Prescribed Concentration of Alcohol (PCA): LSC_PCA
-      - Refusing a Breath Test: LSC_RT 
+      - Refusing a Breath Test: LSC_RT
+      
 ---
 # DUI SCREENS - KYLA
 question: Driving Under the Influence
@@ -87,11 +103,21 @@ fields:
 ---
 question: Penalties for Subsequent Driving Under the Influence Charge
 subquestion: |
-  If this is not the first time you have been charged with a DUI offence, then you will be fined between $1900 and $2900.
- 
-  Or, you may face up to 3 months imprisonment and get 6 demerit points.
- 
-  If you are convicted, you will be disqualified from driving for a minimum of 36 months.
+  
+  <table>
+  <tr>
+    <td>[FILE Money.png, 120px]</td>
+    <td> 
+    If this is not the first time you have been charged with a DUI offence,           then you will be fined between $1900 and $2900.
+    </td>
+  </tr>
+  <tr>
+    <td>[FILE Bars.png, 120px]</td>
+    <td>
+    Or, you may face up to 3 months imprisonment and get 6 demerit points.
+    </td> 
+  </tr>
+  </table>
   
   Please click **proceed** to view next steps and important resources that may be able to assist you. 
 
@@ -116,11 +142,26 @@ buttons:
 # DUI SCREENS - KYLA
 question: Penalties for First Driving Under the Influence Charge
 subquestion: |
-  If this is your first Driving Under the Influence offence you have been charged with, then you will be fined between $1100 and $1600.
- 
-  Or, you may face up to 6 months in prison, and get 6 demerit points.
- 
-  If you are found guilty of this offence, you will not be allowed to drive for at least 12 months.
+
+  <table>
+  <tr>
+    <td>[FILE Money.png, 120px]</td>
+    <td>
+    If this is your first Driving Under the Influence offence you have been charged with, then you will be fined between $1100 and $1600.
+    </td>
+  </tr>
+  <tr>
+    <td>[FILE Bars.png, 120px]</td>
+    <td>
+    Or, you may face up to 6 months in prison, and get 6 demerit points.
+    </td> 
+      <tr>
+    <td>[FILE No_Driving.png, 120px]</td>
+    <td>
+    If you are found guilty of this offence, you will not be allowed to drive for at least 12 months.
+    </td> 
+  </tr>
+  </table>
   
   Please click **proceed** to view next steps and important resources that may be able to assist you.
  
@@ -139,11 +180,26 @@ fields:
 ---
 question: Penalties for Driving Under the Influence with a Child Present 
 subquestion: |
-  If this is not the first time you have been charged with a DUI offence, then you will be fined between $1900 and $2900.
- 
-  Or, you may face up to 6 months imprisonment you will need to undergo an alcohol dependency assessment and get 6 demerit points.
- 
-  If you are convicted, you will be disqualified from driving for a minimum of 36 months.
+
+  <table>
+  <tr>
+    <td>[FILE Money.png, 120px]</td>
+    <td>
+    If this is not the first time you have been charged with a DUI offence, then you will be fined between $1900 and $2900.
+    </td>
+  </tr>
+  <tr>
+    <td>[FILE Bars.png, 120px]</td>
+    <td>
+    Or, you may face up to 6 months imprisonment you will need to undergo an alcohol dependency assessment and get 6 demerit points.
+    </td> 
+      <tr>
+    <td>[FILE No_Driving.png, 120px]</td>
+    <td>
+    If you are convicted, you will be disqualified from driving for a minimum of 36 months.
+    </td> 
+  </tr>
+  </table>
   
   Please click **proceed** to view next steps and important resources that may be able to assist you.
 
@@ -155,11 +211,26 @@ buttons:
 ---
 question: Penalties for First Driving Under the Influence Charge with a Child Present
 subquestion: |
-  If this is the first DUI offence you have been charged with, and you had a child under the age of 16 in the car, then you will be fined between $1100 and $1600.
- 
-  Or, you may face up to 3 months imprisonment, you will need to undergo an alcohol dependency assessment and get 6 demerit points.
- 
-  If you are convicted, you will be disqualified from driving for a minimum of 12 months.
+
+  <table>
+  <tr>
+    <td>[FILE Money.png, 120px]</td>
+    <td>
+    If this is the first DUI offence you have been charged with, and you had a child under the age of 16 in the car, then you will be fined between $1100 and $1600.
+    </td>
+  </tr>
+  <tr>
+    <td>[FILE Bars.png, 120px]</td>
+    <td>
+    Or, you may face up to 3 months imprisonment, you will need to undergo an alcohol dependency assessment and get 6 demerit points.
+    </td> 
+      <tr>
+    <td>[FILE No_Driving.png, 120px]</td>
+    <td>
+    If you are convicted, you will be disqualified from driving for a minimum of 12 months.
+    </td> 
+  </tr>
+  </table>
   
   Please click **proceed** to view next steps and important resources that may be able to assist you.
 
@@ -247,13 +318,34 @@ buttons:
 ---
 question: Penalties for Refusing a Breath Alcohol Test with a Child Present
 subquestion: |
-  You should expect to get a $1160 - $1600 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 12 months from the date of the offence. You will also need to do an alcohol dependence assessment. 
-  
-  You have committed what is known as a ‘serious offence’. Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 36 months, you will have the device attached to your vehicle for another 36 months once you have your licence back. 
-  
-  These devices are about the size of a smartphone and are attached to your car. You will be responsible for all costs of attaching it to your vehicle and for its upkeep.
-  
-  There are strict requirements for drivers with these devices and it is an offence to break any of the conditions of the scheme. You will be told these conditions prior to your use, but if you would like to learn more, please click here.
+
+  <table>
+  <tr>
+    <td>[FILE lscsa-logo.png, 150px]</td>
+    <td>
+      You should expect to get a $1160 - $1600 fine and 6 demerit points. 
+      If you are convicted, your driver’s licence will be taken away for at least 
+      12 months from the date of the offence. You will also need to do an alcohol 
+      dependence assessment.
+    </td>
+  </tr>
+  <tr>
+    <td>Demerit points image</td>
+    <td>
+      Text about how many demerit points
+    </td>
+  </tr>
+  <tr>
+    <td>Serious offence image</td>
+    <td>
+      You have committed what is known as a ‘serious offence’. Because of this, 
+      you will also have an ‘alcohol interlock device’ fitted to your vehicle for 
+      the same time that your licence is disqualified for. For example, if your 
+      licence is disqualified for 36 months, you will have the device attached to 
+      your vehicle for another 36 months once you have your licence back.
+    </td>
+  </tr>
+  </table>
   
   Please click **proceed** to view next steps and important resources that may be able to assist you.  
 
