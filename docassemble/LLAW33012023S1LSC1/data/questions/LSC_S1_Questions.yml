@@ -29,8 +29,9 @@ fields:
 ---
 question: DriveWise has been made to provide information about drink driving offences
 subquestion: |
+
   If you are looking for information about a **different legal issue**, please click [here](https://lsc.sa.gov.au) to be directed to the **Legal Services Commission** website for further help.
-   
+  
 field: LSC_seeking_gen_info
 buttons: 
   - Proceed: proceed
@@ -39,9 +40,14 @@ buttons:
 event: LSC_gen_info_screen
 question: Thank you for using DriveWise!
 subquestion: |
+
   The **Legal Services Commission** has a [Live Chat Service](https://secure.livechatinc.com/licence/6327061/v2/open_chat.cgi?groups=0) and a drink driving [fact sheet](https://lsc.sa.gov.au/cb_pages/drinkdrivingfactsheet.php) that may be helpful.
   
+  We hope this has been helpful! If you are needing more assistance, you can use the resouces below:
+  ${LSC_services_table}
+  
   Please contact the [Legal Help Line](tel:1300 366 424) if you are needing further help
+  
 buttons: 
   - Exit: exit 
   - Restart: restart
@@ -49,7 +55,9 @@ buttons:
 question: It looks like you have been charged with a<br>           
   non-drink-driving offence
 subquestion: |
+
   If you are looking for information about **different** legal issues, please click [here](https://lsc.sa.gov.au/) to be directed to the **Legal Services Commission** website for   further help.
+
 field: LSC_directory_Screen
 buttons: 
   - Proceed: proceed
@@ -105,9 +113,12 @@ buttons:
 event: LSC_end_screen
 question: Thank you for using DriveWise!
 subquestion: |
-  We hope this has been helpful, if you have any further *questions* or require *assistance* please contact the our [Legal Help Line](tel:1300 366 424). 
+  The **Legal Services Commission** has a [Live Chat Service](https://secure.livechatinc.com/licence/6327061/v2/open_chat.cgi?groups=0) and a drink driving [fact sheet](https://lsc.sa.gov.au/cb_pages/drinkdrivingfactsheet.php) that may be helpful.
   
-  The **Legal Services Commission** also have a [Live Chat Service](https://secure.livechatinc.com/licence/6327061/v2/open_chat.cgi?groups=0) and a drink driving [fact sheet](https://lsc.sa.gov.au/cb_pages/drinkdrivingfactsheet.php) which can be accessed Moday to Friday 9am to 4:30pm. 
+  We hope this has been helpful! If you are needing more assistance, you can use the resouces below:
+  ${LSC_services_table}
+  
+  Please contact the [Legal Help Line](tel:1300 366 424) if you are needing further help
 buttons: 
   - Exit: exit
   - Restart: restart 
