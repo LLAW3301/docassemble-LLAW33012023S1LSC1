@@ -216,7 +216,7 @@ code: |
 table: LSC_services_table
 rows: LSC_services
 columns:
-  - Name: row_item['service name']
-  - Link: |
+  - Service: row_item['service name']
+  - Contact: |
       '[{}]({})'.format(row_item['link'], row_item['website'])
 ---
