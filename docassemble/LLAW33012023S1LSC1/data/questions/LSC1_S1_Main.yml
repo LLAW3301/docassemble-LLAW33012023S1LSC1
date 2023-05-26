@@ -11,6 +11,8 @@ features:
 ---
 include: 
   - LSC_S1_Questions.yml
+  - LSC_services.yml
+  - LSCdatabase.yml
 ---
 mandatory: True
 code: | 
@@ -209,4 +211,11 @@ code: |
                   command('exit')
                 elif LSC_PCA_SUB_high_BAC_child_n == 'proceed':
                   LSC_end_screen
+---
+table: LSC_services_table
+rows: LSC_services
+columns:
+  - Name: row_item['service name']
+  - Link: |
+      '[{}]({})'.format(row_item['link'], row_item['website'])
 ---

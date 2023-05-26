@@ -11,9 +11,9 @@ subquestion: |
   </table>
   **DISCLAIMER:**
   
-  DriveWise has been made to help with drink driving charges in South Australia. All information is for guiding purposes and should not be taken as legal advice. We cannot promise that everything provided by DriveWise is completely accurate, current, or covers everything you need to know. DriveWise is not to blame for any losses suffered from using this app.
-  
-  If you are looking for free legal advice in South Australia, please call [1300 366 424](tel:1300 366 424).
+  DriveWise has been made to help provide information on drink driving charges in<br>       **South Australia**. All information is for guiding purposes and should not be taken as legal advice. We cannot promise that everything provided by **DriveWise** is completely accurate, current, or covers everything you need to know. None of the included content constitutes legal advice. **DriveWise** is not liable for any losses suffered from using the app.
+
+  If you are looking for free legal advice in **South Australia**, please call [1300 366 424](tel:1300 366 424).
 field: LSC_welcome_screen
 buttons: 
   - I accept: proceed
@@ -23,22 +23,23 @@ buttons:
 # MISC SCREENS - ELENI
 question: Welcome to DriveWise
 subquestion: |
-  Have you been charged with a drink driving offence?
+  Have you been charged with a **drink driving offence**?
 fields:
   - no label: LSC_charged_with_drink_driving_offence
     datatype: yesnoradio
 ---
 question: Welcome to DriveWise
 subquestion: |
-  Have you instead been charged with a different offence? 
+  Have you been charged with some **other** sort of offence? 
 fields: 
   - no label: LSC_charged_with_other
     datatype: yesnoradio
 ---
 question: DriveWise has been made to provide information about drink driving offences
 subquestion: |
-  If you are looking for information about a different legal issue, please click [here](https://lsc.sa.gov.au) to be directed to the Legal Services Commission website for further help.
-   
+
+  If you are looking for information about a **different legal issue**, please click [here](https://lsc.sa.gov.au) to be directed to the **Legal Services Commission** website for further help.
+  
 field: LSC_seeking_gen_info
 buttons: 
   - Proceed: proceed
@@ -48,17 +49,25 @@ buttons:
 event: LSC_gen_info_screen
 question: Thank you for using DriveWise!
 subquestion: |
-  The Legal Services Commission has a [Live Chat Service](https://secure.livechatinc.com/licence/6327061/v2/open_chat.cgi?groups=0) and a drink driving [fact sheet](https://lsc.sa.gov.au/cb_pages/drinkdrivingfactsheet.php) that may be helpful.
+
+  The **Legal Services Commission** has a [Live Chat Service](https://secure.livechatinc.com/licence/6327061/v2/open_chat.cgi?groups=0) and a drink driving [fact sheet](https://lsc.sa.gov.au/cb_pages/drinkdrivingfactsheet.php) that may be helpful.
+  
+  We hope this has been helpful! If you are needing more assistance, you can use the resouces below:
+  ${LSC_services_table}
   
   Please contact the [Legal Help Line](tel:1300 366 424) if you are needing further help
+  
 buttons: 
   - Exit: exit
     color: danger
   - Restart: restart
 ---
-question: You have shown you have been charged with a different offence.
+question: It looks like you have been charged with a<br>           
+  non-drink-driving offence
 subquestion: |
-  If you are looking for information about different legal issues, please click [here](https://lsc.sa.gov.au/) to be directed to the Legal Services Commission website for   further help.
+
+  If you are looking for information about **different** legal issues, please click [here](https://lsc.sa.gov.au/) to be directed to the **Legal Services Commission** website for   further help.
+
 field: LSC_directory_Screen
 buttons: 
   - Proceed: proceed
@@ -67,7 +76,8 @@ buttons:
 ---
 question: What is the drink driving offence you have been charged with?
 subquestion: |
-  If you would like to know more about how your drink driving charge will effect you, please select which of the following you have been charged with.
+
+  If you would like to know more about how your **drink driving charge** will effect you, **please select** which of the following **you have been charged with**.
 
   <table>
   <tr>
@@ -76,19 +86,20 @@ subquestion: |
   </tr>
   </table>
   
+
 fields: 
   - no label: LSC_define_charge
     datatype: radio
     choices:
       - Driving Under the Influence (DUI): LSC_DUI
-      - Exeeded Prescribed Concentration of Alcohol (PCA): LSC_PCA
+      - Exceeded Prescribed Concentration of Alcohol (PCA): LSC_PCA
       - Refusing a Breath Test: LSC_RT
-      
+
 ---
 # DUI SCREENS - KYLA
 question: Driving Under the Influence
 subquestion: |
-  Was a child under the age of 16 with you in the car at the time you were charged with Driving Under the Influence?
+  Was a child **under the age of 16** with you in the car at the time you were charged with **Driving Under the Influence**?
 fields:
   - no label: LSC_child_present_DUI
     datatype: yesnoradio 
@@ -96,26 +107,39 @@ fields:
 # DUI NO CHILD - FIRST OFFENCE QUESTION
 question: Driving Under the Influence
 subquestion: |
-  Is this the first time you have been charged with a Driving Under the Influence offence?  
+  Is this the **first time** you have been charged with a **Driving Under the Influence** offence?  
 fields:
   - no label: LSC_first_offence_question_no_child
     datatype: yesnoradio 
 ---
 question: Penalties for Subsequent Driving Under the Influence Charge
 subquestion: |
-  
+
   <table>
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td> 
-    If this is not the first time you have been charged with a DUI offence,           then you will be fined between $1900 and $2900.
+    For **repeat** DUI offences, you'll face a fine ranging from **$1,900 to $2,900** and  gain **6 demerit points**. 
     </td>
   </tr>
   <tr>
     <td>[FILE Bars.png, 120px]</td>
     <td>
-    Or, you may face up to 3 months imprisonment and get 6 demerit points.
+    You may face **imprisonment of up to 6 months**. 
     </td> 
+      <tr>
+    <td>[FILE No_Driving.png, 120px]</td>
+    <td>
+    If *convicted*, you will **lose your licence for at least 36 months**.
+    </td>
+    <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is serious enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period or for 36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here[(https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
+  </td>
   </tr>
   </table>
   
@@ -123,7 +147,9 @@ subquestion: |
   
     <table>
   <tr>
-    <td>[FILE Refusing_an_Alcohol_Test.png, 265px]</td>
+    <td>[FILE Driving_Under_Influence.png, 281px]</td>
+    <td>[FILE Demerit_Point.png, 281px]</td>
+  <tr>  
     <td>[FILE Interlock_Scheme.png, 265px]</td>
   </tr>
   </table>
@@ -138,9 +164,12 @@ buttons:
 event: LSC_end_screen
 question: Thank you for using DriveWise!
 subquestion: |
-  sample text: we hope this has been helpful, if you have any further questions or require assistance please contact the our [Legal Help Line](tel:1300 366 424). 
+  The **Legal Services Commission** has a [Live Chat Service](https://secure.livechatinc.com/licence/6327061/v2/open_chat.cgi?groups=0) and a drink driving [fact sheet](https://lsc.sa.gov.au/cb_pages/drinkdrivingfactsheet.php) that may be helpful.
   
-  The Legal Services Commission also have a [Live Chat Service](https://secure.livechatinc.com/licence/6327061/v2/open_chat.cgi?groups=0) and a drink driving [fact sheet](https://lsc.sa.gov.au/cb_pages/drinkdrivingfactsheet.php) which can be accessed Moday to Friday 9am to 4:30pm. 
+  We hope this has been helpful! If you are needing more assistance, you can use the resouces below:
+  ${LSC_services_table}
+  
+  Please contact the [Legal Help Line](tel:1300 366 424) if you are needing further help
 buttons: 
   - Exit: exit
     color: danger
@@ -154,19 +183,28 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your first Driving Under the Influence offence you have been charged with, then you will be fined between $1100 and $1600.
+    For **first** DUI offences, you'll face a fine ranging from **$1,100 to $1,600** and gain **6 demerit points**. 
     </td>
   </tr>
   <tr>
     <td>[FILE Bars.png, 120px]</td>
     <td>
-    Or, you may face up to 6 months in prison, and get 6 demerit points.
+    You may **imprisonment of up to 3 months**. 
     </td> 
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If you are found guilty of this offence, you will not be allowed to drive for at least 12 months.
-    </td> 
+    If *convicted*, **you will lose your licence for at least 12 months**.
+    </td>
+  <tr>
+    <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the *same duration as your licence disqualification period or for **36 months** (whichever is shorter)*.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
+    </td>
   </tr>
   </table>
   
@@ -177,6 +215,9 @@ subquestion: |
   <tr>
     <td>[FILE Driving_Under_Influence.png, 281px]</td>
     <td>[FILE Demerit_Point.png, 281px]</td>
+    <tr>  
+    <td>[FILE Interlock_Scheme.png, 265px]</td>
+  </td>
   </tr>
   </table>
   
@@ -188,7 +229,7 @@ buttons:
 ---
 question: Driving Under the Influence
 subquestion: |
-  Is this the first time you have been charged with a Driving Under the Influence offence?
+  Is this the **first** time you have been charged with a **Driving Under the Influence** offence?
 fields:
   - no label: LSC_first_offence_question_yes_c_DUI
     datatype: yesnoradio 
@@ -200,19 +241,33 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is not the first time you have been charged with a DUI offence, then you will be fined between $1900 and $2900.
+    For **repeat** DUI offences, you'll face a fine ranging from **$1,900 to $2,900** and gain **6 demerit points**.
     </td>
   </tr>
   <tr>
     <td>[FILE Bars.png, 120px]</td>
     <td>
-    Or, you may face up to 6 months imprisonment you will need to undergo an alcohol dependency assessment and get 6 demerit points.
+    You may face **imprisonment of up to 6 months**. 
     </td> 
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If you are convicted, you will be disqualified from driving for a minimum of 36 months.
-    </td> 
+    If *convicted*, **you will lose your licece at least 36 months**.
+    </td>
+  <tr>
+    <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the *same duration as your licence disqualification period or for **36 months** (whichever is shorter)*.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
+    </td>
+  <tr> 
+    <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
+    <td>
+     Since a child under 16 was present you will be required to undertake an alcohol dependence assessment before you are able to drive again. 
+    </td>
   </tr>
   </table>
   
@@ -223,6 +278,8 @@ subquestion: |
   <tr>
     <td>[FILE Driving_Under_Influence.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+  <tr>  
+    <td>[FILE Interlock_Scheme.png, 265px]</td>
   </tr>
   </table>
 
@@ -239,19 +296,32 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is the first DUI offence you have been charged with, and you had a child under the age of 16 in the car, then you will be fined between $1100 and $1600.
+    For **first** DUI offence with a child in the car, you'll face a fine ranging from **$1,100 to $1,600** amd gain **6 demerit points**. 
     </td>
   </tr>
   <tr>
     <td>[FILE Bars.png, 120px]</td>
     <td>
-    Or, you may face up to 3 months imprisonment, you will need to undergo an alcohol dependency assessment and get 6 demerit points.
+    You may face *imprisonment of up to 3 months**
     </td> 
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If you are convicted, you will be disqualified from driving for a minimum of 12 months.
-    </td> 
+    If you are convicted, **you will lose your licence for at least 12 months**.
+    </td>
+     <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the *same duration as your licence disqualification period or for **36 months** (whichever is shorter)*.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
+    </td>
+    <tr>
+    <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
+    <td>
+     Since a child under 16 was present you will be required to undertake an alcohol dependence assessment before you are able to drive again. 
+    </td>
   </tr>
   </table>
   
@@ -261,10 +331,10 @@ subquestion: |
   <tr>
     <td>[FILE Driving_Under_Influence.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+  <tr>  
+    <td>[FILE Interlock_Scheme.png, 265px]</td>
   </tr>
   </table>
-  
-  
 
 field: LSC_first_offence_yes_c
 buttons: 
@@ -275,14 +345,16 @@ buttons:
 # REFUSE BREATH TEST SCREENS - ANARA
 question: Refusing a Breath Alcohol Test
 subquestion: |
-  Is this the first time you have refused a Blood Alcohol Test?
+
+  Is this the **first** time you have **refused** to do a **breath alcotest**?
+
 fields: 
   - no label: LSC_first_offence_q_RT
     datatype: yesnoradio
 ---
 question: Question
 subquestion: |
-  Was a child under the age of 16 years present in the vehicle when you refused the breath alcotest?
+  Was a child **under the age of 16 present** in the vehicle when you refused the breath alcotest?
 fields:
   - no label: LSC_child_present_RT
     datatype: yesnoradio 
@@ -294,20 +366,22 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    You should expect to see a $1900 - $2900 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 36 months. If you would like to learn more, please click here.
+    For a **repeat** offence, you can expect a fine of **$1,900 to $2,900** and gain **6 demerit points**.
     </td>
   </tr>
   <tr>
-    <td>[FILE Serious_Offence.png, 120px]</td>
+    <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    You have committed what is known as a ‘serious offence’. 
+    If you are convicted, **you will lose your licence for at least 36 months**.
     </td> 
       <tr>
     <td>[FILE Interlock.png, 120px]</td>
     <td>
-    Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 36 months, you will have the device attached to your vehicle for another 36 months once you have your licence back. These devices are about the size of a smartphone and are attached to your car. You will be responsible for all costs of attaching it to your vehicle and for its upkeep.
-    
-    There are strict requirements for drivers with these devices and it is an offence to break any of the conditions of the scheme. You will be told these conditions prior to your use, but if you would like to learn more, please click here. 
+      This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
     </td>
   </tr>
   </table>
@@ -321,7 +395,7 @@ subquestion: |
     <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
-  
+ 
 field: LSC_subsequent_RT_no_c
 buttons: 
   - Proceed: proceed
@@ -335,18 +409,29 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    You should expect to see a $1900 - $2900 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 36 months. You will also need to do an alcohol dependence assessment. If you would like to learn more, please click here.
+    For a **repeat** offence, you can expect a fine of **$1,900 to $2,900** and gain **6 demerit points**.
     </td>
   </tr>
-      <tr>
+  <tr>
+    <td>[FILE No_Driving.png, 120px]</td>
+    <td>
+    If you are convicted, **you will lose your licence for at least 36 months**.
+    </td> 
+    <tr>
     <td>[FILE Interlock.png, 120px]</td>
     <td>
-    Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 36 months, you will have the device attached to your vehicle for another 36 months once you have your licence back. 
-    
-    These devices are about the size of a smartphone and are attached to your car. You will be responsible for all costs of attaching it to your vehicle and for its upkeep.
-    
-    There are strict requirements for drivers with these devices and it is an offence to break any of the conditions of the scheme. You will be told these conditions prior to your use, but if you would like to learn more, please click here. 
+      This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
     </td>
+    <tr>
+    <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
+    <td>
+     Since a child under 16 was present you will be required to undertake an alcohol dependence assessment before you are able to drive again. 
+    </td>
+  </tr>
   </tr>
   </table>
   
@@ -356,8 +441,11 @@ subquestion: |
   <tr>
     <td>[FILE Refusing_an_Alcohol_Test.png, 281px]</td>
     <td>[FILE Interlock_Scheme.png, 281px]</td>
+  <tr>
+    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
   </tr>
   </table>
+
   
 field: LSC_subsequent_RT_yes_c
 buttons: 
@@ -367,7 +455,7 @@ buttons:
 ---
 question: Refusing a Breath Alcohol Test
 subquestion: |
-  Was a child under the age of 16 years in the vehicle when you refused the breath alcotest?
+  Was a **child under the age of 16** in the vehicle when you **refused the breath alcotest**?
 fields:
   - no label: LSC_child_present_first_RT
     datatype: yesnoradio
@@ -379,24 +467,22 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    You should expect to get a $1160 - $1600 fine and 6 demerit points. If you are convicted, your driver’s licence will be taken away for at least 12 months from the date of the offence.
+    For a **first** offence, you can expect a fine of **$1,100 to $1,600** and gain **6 demerit points**. 
     </td>
-  </tr>
-      <tr>
-    <td>[FILE Serious_Offence.png, 120px]</td>
+    <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    You have committed what is known as a ‘serious offence’.
-    </td>
-  </tr>
-      <tr>
+    If you are convicted, **you will lose your licence for at least 12 months**.
+    </td> 
+    <tr>
     <td>[FILE Interlock.png, 120px]</td>
     <td>
-      Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 36 months, you will have the device attached to your vehicle for another 36 months once you have your licence back. 
+      This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
   
-  These devices are about the size of a smartphone and are attached to your car. You will be responsible for all costs of attaching it to your vehicle and for its upkeep.
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
   
-  There are strict requirements for drivers with these devices and it is an offence to break any of the conditions of the scheme. You will be told these conditions prior to your use, but if you would like to learn more, please click here.
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
     </td>
+    <tr>
   </tr>
   </table>
   
@@ -407,9 +493,7 @@ subquestion: |
     <td>[FILE Refusing_an_Alcohol_Test.png, 281px]</td>
     <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
-  </table>
-  
-  Please click **proceed** to view next steps and important resources that may be able to assist you.  
+  </table>  
    
 field: LSC_first_RT_no_c
 buttons: 
@@ -424,34 +508,37 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-      You should expect to get a $1160 - $1600 fine and 6 demerit points. 
-      If you are convicted, your driver’s licence will be taken away for at least 
-      12 months from the date of the offence. You will also need to do an alcohol 
-      dependence assessment.
+      For a **first** offence, you can expect a fine of **$1,100 to $1,600** and gain **6 demerit points**.
     </td>
-  </tr>
-  <tr>
-    <td>[FILE Serious_Offence.png, 120px]</td>
+    <td>[FILE No_Driving.png, 120px]</td>
     <td>
-      You have committed what is known as a ‘serious offence’.
-    </td>
-  </tr>
-  <tr>
+    If you are convicted, **you will lose your licence for at least 12 months**.
+    </td> 
+    <tr>
     <td>[FILE Interlock.png, 120px]</td>
     <td>
-       Because of this, you will also have an ‘alcohol interlock device’ fitted to your vehicle for the same time that your licence is disqualified for. For example, if your licence is disqualified for 36 months, you will have the device attached to your vehicle for another 36 months once you have your licence back.
+      This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
     </td>
-  </tr>
+    <tr>
+    <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
+    <td>
+     Since a child under 16 was present you will be required to undertake an alcohol dependence assessment before you are able to drive again. 
+    </td>
   </table>
   
   Please click **proceed** to view next steps and important resources that may be able to assist you.
   
 
-
   <table>
   <tr>
     <td>[FILE Refusing_an_Alcohol_Test.png, 281px]</td>
     <td>[FILE Interlock_Scheme.png, 281px]</td>
+  <tr>
+    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
   </tr>
   </table>
 
@@ -464,20 +551,21 @@ buttons:
 # PCA SCREENS - JOSH
 question: Exceeding the Prescribed Concentration of Alcohol
 subquestion: |
-  The prescribed concentration of alcohol (PCA) which is allowed whilst driving a vehicle differs depending on whether you hold a learner' permit, provisional licence, or full licence.
+  What **kind of licence** did you have **at the time** you were charged?
+
+  The **prescribed concentration of alcohol (PCA)** which is allowed whilst driving a vehicle **differs depending** on whether you hold a **learner's permit, provisional licence, or full licence**.
   
-  What kind of lience did you have at the time you were charged?
 fields:
   - no label: LSC_licence_class
     datatype: radio
     choices:
-      - Learner's permit or Provisional licence: LSC_learners_provisional
-      - Full licence: LSC_full_license 
+      - I have a learner's permit or provisional licence (L's or P's): LSC_learners_provisional
+      - I have my full licence: LSC_full_licence 
 ---
 question: Penalties for Exceeding the Prescribed Concentration of Alcohol with a Learners Permit or Provisional Licence
 subquestion: |
-  Driving with any concentration of alcohol in your bloodstream while on a provisional license or learner's permit is not only an offence but also a breach of license conditions. We advise contacting us directly for further advice.
-  
+
+  If you are on a **learner's permit or provisional licence any concentration of alcohol in your blood is a breach of license conditions**. If the level **exceeds 0.05** you may also face **additional charges** which vary depending on the circumstances. We advise contacting us directly for further advice.
    <table>
   <tr>
     <td>[FILE Support_Resources.png, 500px]</td>
@@ -492,14 +580,14 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol 
 subquestion: |
-  Is this your first time being charged with an exceeding the Prescribed Concentration of Alcohol offence?
+  Is this your **first time** being charged with an **exceeding the Prescribed Concentration of Alcohol offence**?
 fields:
   - no label: LSC_PCA_first_offence_question
     datatype: yesnoradio 
 ---
 question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
-  What was your blood alcohol concentration at the time you were charged?
+  What was your **blood alcohol concentration** at the time you were charged?
 fields: 
   - no label: LSC_BAC_range_question
     datatype: radio
@@ -510,21 +598,25 @@ fields:
 ---
 question: Penalties for Exceeding the Prescribed Concentration of Alcohol (Below 0.08)
 subquestion: |
-  
+
   <table>
   <tr>
+    <td>[FILE insert Image]</td>
+    <td>
+    You can choose to pay the amount you have been fined for this offence OR you are able to challange this offence and go to **court**. 
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your first time blowing over the limit you will be fined $1100 and receive 4 demerit points.
+    If you choose to go to **court** and you are found guilty of a first offence, you could be fined up to **$1,100** and gain **4 demerit points**.
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 3 months. 
+    If convicted, **you will lose your licence for 3 months**.
     </td>
   </tr>
   </table>
+
   
   Please click **proceed** to view next steps and important resources that may be able to assist you. 
   
@@ -532,6 +624,8 @@ subquestion: |
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
+  <tr> 
+    <td>[FILE challenge offence image]/td>
   </tr>
   </table>
   
@@ -543,28 +637,29 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the PCA offence?
+  Did you have a child under 16 in the car when you were charged with the PCA offence?
 fields:
   - no label: LSC_PCA_FO_PCA_mid_BAC_child_question
     datatype: yesnoradio 
 ---
 question: Penalties for Exceeding the Prescribed Concentration of Alcohol (Between 0.08 - 0.15)
 subquestion: |
-  
+
   <table>
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your first time blowing over the limit you will be fined between $900 - $1300 and receive 5 demerit points.
+    For your **first** time blowing over the limit by this amount you will be fined between **$900 - $1,300** and gain **5 demerit points**.
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 6 months. 
+    If convicted **you will lose your licence for at least 6 months**.
     </td>
   </tr>
   </table>
+
   
   Please click **proceed** to view next steps and important resources that may be able to assist you.
 
@@ -588,22 +683,22 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your first time blowing over the limit you will be fined between $900 - $1300 and receive 5 demerit points. 
+    For your **first time** blowing over the limit by this amount you will be fined between **$900 - $1,300** and gain **5 demerit points**. 
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 6 months.
+    If convicted, **you will lose your licence for at least 6 months**.
     </td>
    <tr> 
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
     <td>
-     Since a child under 16 was present you will be required to undertake an alcohol dependence assessment before you are able to drive again. 
+      Since a **child under 16 was present** you will be required to undertake an **alcohol dependence assessment** before you are able to drive again. 
     </td>
   </tr>
   </table>
-  
+
   Please click **proceed** to view next steps and important resources that may be able to assist you. 
 
   <table>
@@ -622,7 +717,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the PCA offence?
+  Did you have a **child under 16** in the car when you were charged with the **PCA offence**?
 fields:
   - no label: LSC_PCA_FO_high_BAC_child_question
     datatype: yesnoradio 
@@ -634,14 +729,21 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your first time blowing over the limit you will be fined between $1100 - $1600 and receive 6 demerit points.
+  For your **first** time blowing over the limit by this amount you will be fined between **$1,100 - $1,600** and gain **6 demerit points**.
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 12 months.
+    If convicted, **you will lose your licence for at least 12 months**.
     </td>
+     <td>[FILE Interlock.png, 120px]</td>
+    <td>
+      This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
   </tr>
   </table>
   
@@ -651,6 +753,8 @@ subquestion: |
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
   
@@ -667,18 +771,27 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your first time blowing over the limit you will be fined between $1100 - $1600 and receive 6 demerit points.
+    For your **first** time blowing over the limit by this amount you will be fined between **$1,100 - $1,600** and gain **6 demerit points**.
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 12 months.
+    If convicted, **you will lose your licence for at least 12 months**.
+    </td>
+  <tr>
+  <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
     </td>
   <tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
     <td>
-    Since a child under 16 was present you will be required to undertake an alcohol dependence assessment before you are able to drive again.
+    Since a **child under 16 was present** you will be required to undertake an **alcohol dependence assessment** before you are able to drive again
     </td>
   </tr>
   </table>
@@ -689,9 +802,13 @@ subquestion: |
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
+
   
+  Click **proceed** for further steps and helpful resources. 
 field: LSC_PCA_FO_high_BAC_child_y
 buttons: 
   - Proceed: proceed
@@ -700,9 +817,9 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
-  You have indicated that you have previously been charged with a PCA offence. 
+  You have indicated that you have **previously** been charged with a **PCA offence**. 
   
-  Which offence are you currently being charged with? 
+  Which **offence** are you **currently** being charged with? 
 fields:
   - no label: LSC_PCA_subsequent_offence_number_question
     datatype: radio 
@@ -713,7 +830,7 @@ fields:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Second Offence
 subquestion: |
-  What was your blood alcohol concentration at the time you were charged?
+  What was your **blood alcohol concentration** at the time you were charged?
 fields: 
   - no label: LSC_PCA_SO_BAC_question
     datatype: radio
@@ -724,7 +841,7 @@ fields:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Third Offence
 subquestion: |
-  What was your blood alcohol concentration at the time you were charged?
+  What was your **blood alcohol concentration** at the time you were charged?
 fields: 
   - no label: LSC_PCA_TO_BAC_question
     datatype: radio
@@ -735,7 +852,7 @@ fields:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
-  What was your blood alcohol concentration at the time you were charged?
+  What was your **blood alcohol concentration** at the time you were charged?
 fields:
   - no label: LSC_PCA_SUB_BAC_question
     datatype: radio 
@@ -744,6 +861,7 @@ fields:
       - Between 0.08 - 0.15: LSC_SUB_mid_BAC
       - Greater than 0.15: LSC_SUB_high_BAC
 ---
+---
 question: Penalties for Second Exceeding Prescribed Concentration of Alcohol Offence (Below 0.08)
 subquestion: |
 
@@ -751,16 +869,17 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your second time blowing over the limit you will be fined $1100 and receive 4 demerit points.
+     For your **second** time blowing over the limit you will be fined **$1,100** and gain **4 demerit points**.
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 6 months.
+    If convicted, **you will lose your licence for at least 6 months**.
     </td>
   </tr>
   </table>
+
   
   Please click **proceed** to view next steps and important resources that may be able to assist you.
 
@@ -781,7 +900,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Second Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current PCA offence?
+  Did you have a **child under 16** in the car when you were charged with the **PCA offence**?
 fields:
   - no label: LSC_PCA_SO_mid_BAC_child_question
     datatype: yesnoradio 
@@ -793,13 +912,22 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your second time blowing over the limit you will be fined between $1100 - $1600 and receive 5 demerit points.
+    For your **second** time blowing over the limit you will be fined between **$1,100 - $1,600** and gain **5 demerit points**.
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 12 months.
+    If convicted, **you will lose your licence for at least 12 months**.
+    </td>
+  <tr>
+    <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
     </td>
   </tr>
   </table>
@@ -810,9 +938,10 @@ subquestion: |
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
-
   
 field: LSC_PCA_SO_mid_BAC_child_n
 buttons: 
@@ -827,28 +956,39 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your second time blowing over the limit you will be fined between $1100 - $1600 and receive 5 demerit points.
+    For your **second** time blowing over the limit you will be fined between **$1,100 - $1,600** and gain **5 demerit points**.
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 12 months.
+    If convicted, **you will lose your licence for at least 12 months**.
+    </td>
+  <tr>
+    <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
     </td>
   <tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
     <td>
-    Since a child under 16 was present you will be required to undertake an alcohol dependence assessment before you are able to drive again.
+    In **addition** to the interlock scheme, since a **child under 16 was present**, you must complete an **alcohol dependence assessment** before you will be allowed to drive again. 
     </td>
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may be able to assist you.
+  Click **proceed** for further steps and helpful resources. 
 
   <table>
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
 
@@ -861,7 +1001,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Second Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current PCA offence?
+  Did you have a **child under 16** in the car when you were charged with the **PCA offence**?
 fields:
   - no label: LSC_PCA_SO_high_BAC_child_question
     datatype: yesnoradio 
@@ -873,13 +1013,22 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your second time blowing over the limit you will be fined between $1600 - $2400 and receive 6 demerit points. 
+    For your **second time** blowing over the limit you will be fined between **$1,600 - $2,400** and gain **6 demerit points**. 
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 36 months.
+    If convicted, **you will lose your licence for at least 36 months**.
+    </td>
+    <td>[FILE Interlock.png, 120px]</td>
+    <tr>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
     </td>
   </tr>
   </table>
@@ -890,6 +1039,8 @@ subquestion: |
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
 
@@ -907,23 +1058,36 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your second time blowing over the limit you will be fined between $1600 - $2400 and receive 6 demerit points. If convicted you will be disqualified from driving for at least 36 months.
+    For your **second** time blowing over the limit you will be fined between **$1,600 - $2,400** and gain **6 demerit points**.
     </td>
   </tr>
+    <td>[FILE No_Driving.png, 120px]</td>
+    <td>
+    If convicted, **you will lose your licence for at least 36 months**.
+  <tr>
+   <td>[FILE Interlock.png, 120px]</td>
+    <tr>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
+    </td>
   <tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
     <td>
-    Since a child under 16 was present you will be required to undertake an alcohol dependence assessment before you are able to drive again.     
+    In **addition** to the interlock scheme, since a **child under 16** was present, you must complete an **alcohol dependence assessment** before you will be allowed to drive again. 
     </td>
   </tr>
   </table>
-  
-  Please click **proceed** to view next steps and important resources that may be able to assist you.
 
   <table>
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
 
@@ -941,13 +1105,13 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your third time blowing over the limit you will be fined $1100 and receive 4 demerit points. 
+    For your **third** time blowing over the limit you will be fined **$1,100** and gain **4 demerit points**.
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 9 months.
+    If convicted, **you will lose your licence for at least 9 months**.
     </td>
   </tr>
   </table>
@@ -970,7 +1134,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Third Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current PCA offence?
+  Did you have a **child under 16** in the car when you were charged with the **PCA offence**?
 fields:
   - no label: LSC_PCA_TO_mid_BAC_child_question
     datatype: yesnoradio 
@@ -982,18 +1146,28 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your third time blowing over the limit you will be fined between $1500 - $2200 and receive 5 demerit points. 
+     For your **third time** blowing over the limit you will be fined between **$1,500 - $2,200** and gain **5 demerit points**.
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 24 months.
+    If *convicted*, **you will lose your licence for at least 24 months**.
     </td>  
+  <tr>
+     <td>[FILE Interlock.png, 120px]</td>
+    <tr>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
+    </td>
   <tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
     <td>
-    Since a child under 16 was present you will be required to undertake an alcohol dependence assessment before you are able to drive again.    
+    Since a **child under 16** was present you will be required to undertake an **alcohol dependence assessment** before you are able to drive again   
     </td>
   </tr>
   </table>
@@ -1004,6 +1178,8 @@ subquestion: |
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
 
@@ -1021,25 +1197,37 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your third time blowing over the limit you will be fined between $1500 - $2200 and receive 5 demerit points. 
+    For your **third** time blowing over the limit you will be fined between **$1,500 - $2,200** and gain **5 demerit points**. 
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 24 months.
+    If convicted, **you will lose your licence for at least 24 months**.
+    </td>
+    <tr>
+     <td>[FILE Interlock.png, 120px]</td>
+    <tr>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
     </td>
   </tr>
   </table>
-  
-  Please click **proceed** to view next steps and important resources that may be able to assist you.
 
+ 
   <table>
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
+ 
 
 field: LSC_PCA_TO_mid_BAC_child_n
 buttons: 
@@ -1047,9 +1235,10 @@ buttons:
   - Exit: exit
     color: danger
 ---
+
 question: Exceeding Prescribed Concentration of Alcohol - Third Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current PCA offence?
+  Did you have a **child under 16** in the car when you were charged with the **PCA offence**?
 fields:
   - no label: LSC_PCA_TO_high_BAC_child_question
     datatype: yesnoradio 
@@ -1061,18 +1250,26 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your second time blowing over the limit you will be fined between $1900 - $2900 and receive 6 demerit points.
+    For your **second** time blowing over the limit you will be fined between **$1,900 - $2,900** and gain **6 demerit points**.
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 36 months.
+    If convicted, **you will lose your licence for at least 36 months**.
     </td>  
   <tr>
+    <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
+    </td>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
     <td>
-    Since a child under 16 was present you will be required to undertake an alcohol dependence assessment before you are able to drive again.    
+     Since a **child under 16** was present you will be required to undertake an **alcohol dependence assessment** before you are able to drive again    
     </td>
   </tr>
   </table>
@@ -1083,6 +1280,8 @@ subquestion: |
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
   
@@ -1099,13 +1298,22 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If this is your second time blowing over the limit you will be fined between $1900 - $2900 and receive 6 demerit points. 
+    For your **second** time blowing over the limit you will be fined between **$1,900 - $2,900** and gain **6 demerit points**. 
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 36 months.
+    If convicted, **you will lose your licence for at least 36 months**. 
+    </td>
+    <tr>
+    <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf).
     </td>
   </tr>
   </table>
@@ -1116,6 +1324,8 @@ subquestion: |
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
+    <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
   
@@ -1132,13 +1342,13 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-     If you have blown over the limit more than three times previously, you will be fined $1100 and receive 4 demerit points.  
+     If you have blown over the limit **more than three times previously**, you will be fined **$1,100** and gain **4 demerit points**.  
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 12 months.
+    If convicted, **you will lose your licence for at least 12 months**.
     </td>
   </tr>
   </table>
@@ -1161,7 +1371,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current PCA offence?
+  Did you have a **child under 16** in the car when you were charged with the **PCA offence**?
 fields:
   - no label: LSC_PCA_SUB_mid_BAC_child_quesiton
     datatype: yesnoradio 
@@ -1173,28 +1383,39 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If you have blown over the limit more than three times previously, you will be fined between $1500 - $2200 and receive 5 demerit points. 
+    If you have blown over the limit **more than three times previously**, you will be fined between **$1,500 - $2,200** and gain **5 demerit points**. 
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 24 months.
+    If convicted, **you will lose  your licence for at least 24 months**.
     </td>  
   <tr>
+   <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcoho
+    </td>
+    <tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
     <td>
-    Since a child under 16 was present you will be required to undertake an alcohol dependence assessment before you are able to drive again.     
+    In **addition** to the interlock scheme, since a **child under 16** was present, you must complete an **alcohol dependence assessment** before you will be allowed to drive again.
     </td>
   </tr>
   </table>
-  
-  Please click **proceed** to view next steps and important resources that may be able to assist you.
+
+  Click **proceed** for further steps and helpful resources. 
 
   <table>
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
 
@@ -1211,13 +1432,22 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If you have blown over the limit more than three times previously, you will be fined between $1500 - $2200 and receive 5 demerit points. 
+    If you have blown over the limit **more than three times previously,** you will be fined between **$1,500 - $2,200** and gain **5 demerit points**. 
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 24 months.
+    If convicted, **you will lose your licence for at least 24 months**.
+    </td>
+  <tr>
+    <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcoho
     </td>
   </tr>
   </table>
@@ -1228,8 +1458,11 @@ subquestion: |
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
+
   
 field: LSC_PCA_SUB_mid_BAC_child_n
 buttons: 
@@ -1239,7 +1472,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
-  Was a child under the age of 16 present with you in the vehicle at the time you were charged with the current PCA offence?
+  Did you have a **child under 16** in the car when you were charged with the **PCA offence**?
 fields:
   - no label: LSC_PCA_SUB_high_BAC_child_question
     datatype: yesnoradio
@@ -1251,28 +1484,40 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If you have blown over the limit more than three times previously, you will be fined between $1900 - $2900 and receive 6 demerit points. 
+    If you have blown over the limit **more than three times previously**, you will be fined between **$1,900 - $2,900** and gain **6 demerit points**.
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 36 months.
+    If convicted, **you will lose your licence for at least 36 months**. 
     </td>  
   <tr>
+   <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcoho
+  <tr>
+    </td>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
     <td>
-    Since a child under 16 was present you will be required to undertake an alcohol dependence assessment before you are able to drive again.    
+    In **addition** to the interlock scheme, since a **child under 16** was present, you must complete an **alcohol dependence assessment** before you will be allowed to drive again.
     </td>
   </tr>
   </table>
-  
-  Please click **proceed** to view next steps and important resources that may be able to assist you.
+
+ 
+  Click **proceed** for further steps and helpful resources. 
 
   <table>
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
 
@@ -1289,14 +1534,23 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If you have blown over the limit more than three times previously, you will be fined between $1900 - $2900 and receive 6 demerit points. 
+    If you have blown over the limit **more than three times previously**, you will be fined between **$1,900 - $2,900** and gain **6 demerit points**. 
     </td>
   </tr>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
     <td>
-    If convicted you will be disqualified from driving for at least 36 months.
+    If convicted, **you will lose your licence for at least 36 months**. 
+  <tr>
     </td>
+    <td>[FILE Interlock.png, 120px]</td>
+    <td>
+    This offence is **serious** enough that you'll have to get an **alcohol interlock device** installed in your vehicle for the **same duration as your licence disqualification period** *or for* **36 months (whichever is shorter)**.
+  
+  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  
+  You'll be given the specific conditions beforehand, but if you want more information about this, [click here](https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcoho
+  <tr>
   </tr>
   </table>
   
@@ -1306,9 +1560,12 @@ subquestion: |
   <tr>
     <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
+  <tr>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
   
+
   
 field: LSC_PCA_SUB_high_BAC_child_n
 buttons: 
