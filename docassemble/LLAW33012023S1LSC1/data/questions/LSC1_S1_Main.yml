@@ -1,4 +1,14 @@
 ---
+objects:
+  - LSCLOGO: DAStaticFile.using(filename='lscsa-logo.png')
+---
+mandatory: True
+code: |
+  set_parts(logo='<img src="' + LSCLOGO.url_for() + '" style="height: 76px; width: 200px;">')
+---
+features: 
+  css: C4_01_lnf_with_comments.css
+---
 include: 
   - LSC_S1_Questions.yml
   - LSC_services.yml
