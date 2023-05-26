@@ -15,7 +15,8 @@ include:
   - LSCdatabase.yml
 ---
 mandatory: True
-code: | 
+code: |
+  exit_url_lscsa = 'https://lsc.sa.gov.au/'
   # MISC/OTHER OFFENCES BRANCH
   if LSC_welcome_screen == 'exit':
     command('exit')
@@ -37,7 +38,7 @@ code: |
         if LSC_child_present_DUI == False:
           if LSC_first_offence_question_no_child == True: 
             if LSC_first_offence_no_c == 'exit':
-              command('exit')
+              command('exit', url=exit_url_lscsa)
             elif LSC_first_offence_no_c == 'proceed':
               LSC_end_screen
           else: 
@@ -48,7 +49,7 @@ code: |
         else: 
           if LSC_first_offence_question_yes_c_DUI == True:
             if LSC_first_offence_yes_c == 'exit':
-              command('exit')
+              command('exit', url=exit_url_lscsa)
             elif LSC_first_offence_yes_c == 'proceed':
               LSC_end_screen
           else: 
