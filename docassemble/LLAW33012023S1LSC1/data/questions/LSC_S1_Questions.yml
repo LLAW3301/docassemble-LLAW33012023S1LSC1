@@ -15,6 +15,8 @@ subquestion: |
   DriveWise has been made to help provide information on drink driving charges in<br>       **South Australia**. All information is for guiding purposes and should not be taken as legal advice. We cannot promise that everything provided by **DriveWise** is completely accurate, current, or covers everything you need to know. **DriveWise** is not liable for any losses suffered from using the app.
   
   The app should take around 5-10 minutes to complete.
+  
+  Click on {highlighted text} to learn more.
 
   If you are looking for free legal advice in **South Australia**, please call the [Legal Help Line](tel:1300 366 424).
 field: LSC_welcome_screen
@@ -26,7 +28,7 @@ buttons:
 # MISC SCREENS - ELENI
 question: Introductory Questions
 subquestion: |
-  Have you been charged with a **drink driving offence**?
+  Have you been charged with a **{drink driving offence}**?
 fields:
   - no label: LSC_charged_with_drink_driving_offence
     datatype: yesnoradio
@@ -68,7 +70,7 @@ buttons:
 ---
 question: What is the offence you have been charged with?
 subquestion: |
-  If you would like to know more about how your **drink driving charge** will impact you, **please select** what offence **you have been charged with**:
+  If you would like to know more about how your **{drink driving charge}** will impact you, **please select** what offence **you have been charged with**:
 
   <table style="margin-left:auto;margin-right:auto;">
   <tr>
@@ -88,7 +90,7 @@ fields:
 # DUI SCREENS - KYLA
 question: Driving Under the Influence
 subquestion: |
-  Was a child **under the age of 16** with you when you were charged with **Driving Under the Influence**?
+  Was a child **under the age of 16** with you when you were charged with **{Driving Under the Influence}**?
 fields:
   - no label: LSC_child_present_DUI
     datatype: yesnoradio 
@@ -96,7 +98,7 @@ fields:
 # DUI NO CHILD - FIRST OFFENCE QUESTION
 question: Driving Under the Influence
 subquestion: |
-  Is this the **first time** you have been charged with a **Driving Under the Influence** offence?  
+  Is this the **first time** you have been charged with **{Driving Under the Influence}**?  
 fields:
   - no label: LSC_first_offence_question_no_child
     datatype: yesnoradio 
@@ -108,7 +110,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For <b>repeat</b> DUI offences, you may face a fine ranging from <b>$1,900 to $2,900</b> and  gain <b>6 demerit points</b>. 
+    For <b>repeat</b> {DUI offences}, you may face a fine ranging from <b>$1,900 to $2,900</b> and  gain <b>6 demerit points</b>. 
     </td>
   </tr>
   <tr>
@@ -170,7 +172,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For <b>first</b> DUI offences, you may face a fine ranging from <b>$1,100 to $1,600</b> and gain <b>6 demerit points</b>.
+    For <b>first</b> {DUI offences}, you may face a fine ranging from <b>$1,100 to $1,600</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -214,7 +216,7 @@ buttons:
 ---
 question: Driving Under the Influence
 subquestion: |
-  Is this the **first** time you have been charged with **Driving Under the Influence**?
+  Is this the **first** time you have been charged with **{Driving Under the Influence}**?
 fields:
   - no label: LSC_first_offence_question_yes_c_DUI
     datatype: yesnoradio 
@@ -226,7 +228,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For <b>repeat</b> DUI offences, you may face a fine ranging from <b>$1,900 to $2,900</b> and gain <b>6 demerit points</b>.
+    For <b>repeat</b> {DUI offences}, you may face a fine ranging from <b>$1,900 to $2,900</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -281,7 +283,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For a <b>first</b> DUI offence with a child present, you may face a fine ranging from <b>$1,100 to $1,600</b> and gain <b>6 demerit points</b>.
+    For a <b>first</b> {DUI offence} with a child present, you may face a fine ranging from <b>$1,100 to $1,600</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -333,7 +335,7 @@ buttons:
 question: Refusing a Breath Test
 subquestion: |
 
-  Is this the **first** time you have **refused** to do a **breath alcotest**?
+  Is this the **first** time you have **refused** to do a **{breath alcotest}**?
 
 fields: 
   - no label: LSC_first_offence_q_RT
@@ -341,7 +343,7 @@ fields:
 ---
 question: Refusing a Breath Test
 subquestion: |
-  Was a child **under the age of 16 present** when you refused the breath alcotest?
+  Was a child **under the age of 16 present** when you refused the {breath alcotest}?
 fields:
   - no label: LSC_child_present_RT
     datatype: yesnoradio 
@@ -353,7 +355,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For a <b>repeat</b> offence, you may be fined <b>$1,900 to $2,900</b> and gain <b>6 demerit points</b>.
+    For a <b>repeat</b> {refusing an alcotest} charge, you may be fined <b>$1,900 to $2,900</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -400,7 +402,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For a <b>repeat</b> offence, you may be fined <b>$1,900 to $2,900</b> and gain <b>6 demerit points</b>.
+    For a <b>repeat</b> {refusing an alcotest} charge, you may be fined <b>$1,900 to $2,900</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -445,7 +447,7 @@ buttons:
 ---
 question: Refusing a Breath Alcohol Test
 subquestion: |
-  Was a **child under the age of 16** in the vehicle when you **refused the breath alcotest**?
+  Was a **child under the age of 16** in the vehicle when you **{refused the breath alcotest}**?
 fields:
   - no label: LSC_child_present_first_RT
     datatype: yesnoradio
@@ -457,7 +459,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For a <b>first</b> offence, you may be fined <b>$1,100 to $1,600</b> and gain <b>6 demerit points</b>. 
+    For a <b>first</b> {refusing an alcotest} charge, you may be fined <b>$1,100 to $1,600</b> and gain <b>6 demerit points</b>. 
     </td>
   </tr>
   <tr>
@@ -503,7 +505,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For a <b>first</b> offence, you may be fined <b>$1,100 to $1,600</b> and gain <b>6 demerit points</b>.
+    For a <b>first</b> {refusing an alcotest} charge, you may be fined <b>$1,100 to $1,600</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -551,7 +553,7 @@ question: Exceeding the Prescribed Concentration of Alcohol
 subquestion: |
   What **licence** did you have **when** you were charged?
 
-  The **prescribed concentration of alcohol (PCA)** allowed while driving **differs depending** on whether you hold a **learner's permit, provisional licence, or full licence**.
+  The **{prescribed concentration of alcohol} (PCA)** allowed while driving **differs depending** on whether you hold a **learner's permit, provisional licence, or full licence**.
   
 fields:
   - no label: LSC_licence_class
@@ -578,14 +580,14 @@ buttons:
 ---
 question: Exceeding the Prescribed Concentration of Alcohol 
 subquestion: |
-  Is this your **first time** being charged with **Exceeding the Prescribed Concentration of Alcohol**?
+  Is this your **first time** being charged with **{Exceeding the Prescribed Concentration of Alcohol}**?
 fields:
   - no label: LSC_PCA_first_offence_question
     datatype: yesnoradio 
 ---
 question: Exceeding the Prescribed Concentration of Alcohol
 subquestion: |
-  What was your **blood alcohol concentration** at the time you were charged?
+  What was your **{blood alcohol concentration}** at the time you were charged?
 fields: 
   - no label: LSC_BAC_range_question
     datatype: radio
@@ -601,7 +603,7 @@ subquestion: |
   <tr>
     <td>[FILE Serious_Offence.png, 120px]</td>
     <td style="width:430px">
-    You can choose to <b>pay the amount</b> you may be fined for this offence, OR you are able to challenge the charge and go to <b>court</b>.
+    You can choose to <b>pay the amount</b> you may be fined for this {PCA offence}, or you are able to challenge the charge and go to <b>court</b>.
     </td>
   </tr>
   <tr>
@@ -635,7 +637,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
-  Was a child under 16 present when you were charged with a PCA offence?
+  Was a child under 16 present when you were charged with a {PCA offence}?
 fields:
   - no label: LSC_PCA_FO_PCA_mid_BAC_child_question
     datatype: yesnoradio 
@@ -647,7 +649,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    For your <b>first</b> time blowing between 0.08-0.15%, you may be fined between <b>$900 - $1,300</b> and gain <b>5 demerit points</b>.
+    For your <b>first</b> time {exceeding the PCA} by blowing between 0.08-0.15%, you may be fined between <b>$900 - $1,300</b> and gain <b>5 demerit points</b>.
     </td>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
@@ -677,7 +679,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>first time</b> blowing between 0.08-0.15%, you may be fined between <b>$900 - $1,300</b> and gain <b>5 demerit point</b>.
+    For your <b>first time</b> {exceeding the PCA} by blowing between 0.08-0.15%, you may be fined between <b>$900 - $1,300</b> and gain <b>5 demerit point</b>.
     </td>
   </tr>
   <tr>
@@ -711,7 +713,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
-  Was a **child under 16** present when you were charged with a **PCA offence**?
+  Was a **child under 16** present when you were charged with a **{PCA offence}**?
 fields:
   - no label: LSC_PCA_FO_high_BAC_child_question
     datatype: yesnoradio 
@@ -723,7 +725,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>first</b> time blowing over 0.15%, you may be fined between <b>$1,100 - $1,600</b> and gain <b>6 demerit points</b>.
+    For your <b>first</b> time {exceeding the PCA} by blowing over 0.15%, you may be fined between <b>$1,100 - $1,600</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -766,7 +768,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>first</b> time blowing over 0.15%, you may be fined between <b>$1,100 - $1,600</b> and gain <b>6 demerit points</b>.
+    For your <b>first</b> time {exceeding the PCA} by blowing over 0.15%, you may be fined between <b>$1,100 - $1,600</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -811,7 +813,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol
 subquestion: |
-  You have shown that you have **previously** been charged with a **PCA offence**. 
+  You have shown that you have **previously** been charged with a **{PCA offence}**. 
   
   Which **offence** are you **currently** being charged with? 
 fields:
@@ -824,7 +826,7 @@ fields:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Second Offence
 subquestion: |
-  What was your **blood alcohol concentration** when you were charged?
+  What was your **{blood alcohol concentration}** when you were charged?
 fields: 
   - no label: LSC_PCA_SO_BAC_question
     datatype: radio
@@ -835,7 +837,7 @@ fields:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Third Offence
 subquestion: |
-  What was your **blood alcohol concentration** when you were charged?
+  What was your **{blood alcohol concentration}** when you were charged?
 fields: 
   - no label: LSC_PCA_TO_BAC_question
     datatype: radio
@@ -846,7 +848,7 @@ fields:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
-  What was your **blood alcohol concentration** when you were charged?
+  What was your **{blood alcohol concentration}** when you were charged?
 fields:
   - no label: LSC_PCA_SUB_BAC_question
     datatype: radio 
@@ -862,7 +864,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    For your <b>second</b> time blowing over the limit you may be fined <b>$1,100</b> and gain <b>4 demerit points</b>.
+    For your <b>second</b> time {exceeding the PCA} by blowing over the limit you may be fined <b>$1,100</b> and gain <b>4 demerit points</b>.
     </td>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
@@ -887,7 +889,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Second Offence
 subquestion: |
-  Was a **child under 16** present when you were charged with a **PCA offence**?
+  Was a **child under 16** present when you were charged with a **{PCA offence}**?
 fields:
   - no label: LSC_PCA_SO_mid_BAC_child_question
     datatype: yesnoradio 
@@ -899,7 +901,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>second</b> time blowing over the limit, you may be fined between <b>$1,100 - $1,600</b> and gain <b>5 demerit points</b>.
+    For your <b>second</b> time {exceeding the PCA} by blowing over the limit, you may be fined between <b>$1,100 - $1,600</b> and gain <b>5 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -942,7 +944,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>second</b> time blowing over the limit, you may be fined between <b>$1,100 - $1,600</b>  and gain <b>5 demerit points</b>.
+    For your <b>second</b> time {exceeding the PCA} by blowing over the limit, you may be fined between <b>$1,100 - $1,600</b>  and gain <b>5 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -987,7 +989,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Second Offence
 subquestion: |
-  Was a **child under 16** present when you were charged with a **PCA offence**?
+  Was a **child under 16** present when you were charged with a **{PCA offence}**?
 fields:
   - no label: LSC_PCA_SO_high_BAC_child_question
     datatype: yesnoradio 
@@ -999,7 +1001,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>second time</b> blowing over the limit, you may be fined between <b>$1,600 - $2,400</b> and gain <b>6 demerit points</b>.
+    For your <b>second time</b> {exceeding the PCA} by blowing over the limit, you may be fined between <b>$1,600 - $2,400</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -1042,7 +1044,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>second</b> time blowing over the limit, you may be fined between <b>$1,600 - $2,400</b> and gain <b>6 demerit points</b>.
+    For your <b>second</b> time {exceeding the PCA} by blowing over the limit, you may be fined between <b>$1,600 - $2,400</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -1092,7 +1094,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    For your <b>third</b>  time blowing over the limit, you may be fined <b>$1,100</b>  and gain <b>4 demerit points</b>.
+    For your <b>third</b> time {exceeding the PCA} by blowing over the limit, you may be fined <b>$1,100</b>  and gain <b>4 demerit points</b>.
     </td>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
@@ -1117,7 +1119,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Third Offence
 subquestion: |
-  Was a **child under 16** present when you were charged with a **PCA offence**?
+  Was a **child under 16** present when you were charged with a **{PCA offence}**?
 fields:
   - no label: LSC_PCA_TO_mid_BAC_child_question
     datatype: yesnoradio 
@@ -1129,7 +1131,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>third time</b> blowing over the limit, you may be fined between <b>$1,500 - $2,200</b> and gain <b>5 demerit points</b>.
+    For your <b>third time</b> {exceeding the PCA} by blowing over the limit, you may be fined between <b>$1,500 - $2,200</b> and gain <b>5 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -1179,7 +1181,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>third time</b> blowing over the limit, you may be fined between <b>$1,500 - $2,200</b> and gain <b>5 demerit points</b>.
+    For your <b>third time</b> {exceeding the PCA} by blowing over the limit, you may be fined between <b>$1,500 - $2,200</b> and gain <b>5 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -1218,7 +1220,7 @@ buttons:
 
 question: Exceeding Prescribed Concentration of Alcohol - Third Offence
 subquestion: |
-  Was a **child under 16** present when you were charged with the **PCA offence**?
+  Was a **child under 16** present when you were charged with the **{PCA offence}**?
 fields:
   - no label: LSC_PCA_TO_high_BAC_child_question
     datatype: yesnoradio 
@@ -1230,7 +1232,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>third</b> time blowing over the limit, you may be fined between <b>$1,900 - $2,900</b> and gain <b>6 demerit points</b>.
+    For your <b>third</b> time {exceeding the PCA} by blowing over the limit, you may be fined between <b>$1,900 - $2,900</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -1280,7 +1282,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>third</b> time blowing over the limit, you may be fined between <b>$1,900 - $2,900</b> and gain <b>6 demerit points</b>.  
+    For your <b>third</b> time {exceeding the PCA} by blowing over the limit, you may be fined between <b>$1,900 - $2,900</b> and gain <b>6 demerit points</b>.  
     </td>
   </tr>
   <tr>
@@ -1323,7 +1325,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td>
-    If you have blown over the limit <b>more than three times previously</b>, you may be fined <b>$1,100</b> and gain <b>4 demerit points</b>.
+    If you have {exceeded the PCA} by blowing over the limit <b>more than three times previously</b>, you may be fined <b>$1,100</b> and gain <b>4 demerit points</b>.
     </td>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
@@ -1348,7 +1350,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
-  Was a **child under 16** present when you were charged with a **PCA offence**?
+  Was a **child under 16** present when you were charged with a **{PCA offence}**?
 fields:
   - no label: LSC_PCA_SUB_mid_BAC_child_quesiton
     datatype: yesnoradio 
@@ -1360,7 +1362,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    If you have blown over the limit <b>more than three times previously</b>, you may be fined between <b>$1,500 - $2,200</b> and gain <b>5 demerit points</b>.
+    If you have {exceeded the PCA} by blowing over the limit <b>more than three times previously</b>, you may be fined between <b>$1,500 - $2,200</b> and gain <b>5 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -1410,7 +1412,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    If you have blown over the limit <b>more than three times previously,</b>  you may be fined between <b>$1,500 - $2,200</b> and gain <b>5 demerit points</b>.
+    If you have {exceeded the PCA} by blowing over the limit <b>more than three times previously,</b>  you may be fined between <b>$1,500 - $2,200</b> and gain <b>5 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -1448,7 +1450,7 @@ buttons:
 ---
 question: Exceeding Prescribed Concentration of Alcohol - Fourth or Subsequent Offence
 subquestion: |
-  Was a **child under 16** present when you were charged with a **PCA offence**?
+  Was a **child under 16** present when you were charged with a **{PCA offence}**?
 fields:
   - no label: LSC_PCA_SUB_high_BAC_child_question
     datatype: yesnoradio
@@ -1460,7 +1462,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    If you have blown over the limit <b>more than three times previously</b>, you may be fined between <b>$1,900 - $2,900</b> and gain <b>6 demerit points</b>.
+    If you have {exceeded the PCA} by blowing over the limit <b>more than three times previously</b>, you may be fined between <b>$1,900 - $2,900</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>
@@ -1510,7 +1512,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    If you have blown over the limit <b>more than three times previously</b>, you may be fined between <b>$1,900 - $2,900</b> and gain <b>6 demerit points</b>.
+    If you have {exceeded the PCA} by blowing over the limit <b>more than three times previously</b>, you may be fined between <b>$1,900 - $2,900</b> and gain <b>6 demerit points</b>.
     </td>
   </tr>
   <tr>

@@ -220,3 +220,47 @@ columns:
   - Contact: |
       '[{}]({})'.format(row_item['link'], row_item['website'])
 ---
+terms:
+  - phrases:
+    - Exceeding the Prescribed Concentration of Alcohol
+    - Exceeded the Prescribed Concentration of Alcohol
+    - Exceeding Prescribed Concentration of Alcohol
+    - Exceeded Prescribed Concentration of Alcohol
+    - prescribed concentration of alcohol
+    - exceeding the PCA
+    - exceeded the PCA
+    - PCA offence
+    definition: |
+      [FILE Exceeding_PCA.png]
+  - drink driving offence: |
+      Could include: driving with a concentration of alcohol in your system (PCA or           DUI) or refusing a breath test.
+  - phrases:
+    - Refusing a Breath Test
+    - Refusing an Alcotest
+    - breath alcotest
+    - refused the breath alcotest
+    definition: |
+     [FILE Refusing_an_Alcohol_Test.png]      
+  - drink driving charge: |
+      If you are unsure, select the option you believe may be most applicable to you or       check your summons if you have one.
+  - alcohol interlock scheme: |
+      [FILE Interlock_Scheme.png]
+  - alcohol dependency assessment: |  
+      [FILE Alcohol_Dependancy_Assessment.png] 
+  - phrases:
+    - Driving Under the Influence
+    - DUI offences
+    - DUI offence
+    definition: |
+      [FILE Driving_Under_Influence.png]
+  - court: |
+      [FILE Court_Process.png]
+  - demerit points: |
+      [FILE Demerit_Point.png]
+  - lose your licence: |
+      [FILE Lose_Licence.png]
+  - blood alcohol concentration: |
+      The amount of alcohol in your blood, usually measured using a breath machine that       you have to blow into.
+  - highlighted text: |
+      Highlighted text means you can see definitions for words that may be unclear,           click on them to see their meaning.
+---
