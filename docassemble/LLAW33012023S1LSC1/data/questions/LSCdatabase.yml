@@ -26,4 +26,8 @@ data:
     website: https://lawhandbook.sa.gov.au/ch12s08s03.php
     link: Website
     drinkdriving: True
+  - service name: Drug & Alcohol Services SA
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/mental+health+and+drug+and+alcohol+services/drug+and+alcohol+services/about+dassa/contact+drug+and+alcohol+services+south+australia
+    link: Website
+    drinkdriving: True
 ---

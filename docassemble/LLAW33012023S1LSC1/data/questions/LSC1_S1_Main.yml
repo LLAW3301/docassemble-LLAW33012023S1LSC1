@@ -285,8 +285,8 @@ terms:
       [FILE Lose_Licence.png]
   - blood alcohol concentration: |
       The amount of alcohol in your blood, usually measured using a breath machine that       you have to blow into.
-  - highlighted text: |
-      Highlighted text means you can see definitions for words that may be unclear,           click on them to see their meaning.
+  - underlined text: |
+      Underlined text means you can see definitions for words that may be unclear;           click on them to see their meaning.
 ---
 ---
 # Modify the post default screen part to attribute work to Flinders and your client
