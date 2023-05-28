@@ -52,6 +52,11 @@ h1 {
   color: #333;
 }
 
+a {
+  color: #333;
+}
+
+
 p {
   color: #333;
 }
@@ -82,6 +87,12 @@ td {
 
 td {
     text-align: auto;
+}
+
+
+.daterm {
+    cursor: pointer;
+    color: #333;
 }
 
 /* styles.css */

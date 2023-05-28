@@ -74,7 +74,7 @@ subquestion: |
 
   <table style="margin-left:auto;margin-right:auto;">
   <tr>
-    <td >[FILE What_are_the_Offences.png, 400px]</td>
+    <td >[FILE What_are_the_Offences.png, 380px]</td>
     <td style="text-align:center"></td>
   </tr>
   </table>
@@ -106,7 +106,7 @@ fields:
 question: Penalties for a Subsequent Driving Under the Influence Charge
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -128,9 +128,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
   </table>
@@ -139,13 +139,10 @@ subquestion: |
   
 
   <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Driving_Under_Influence.png, 281px]</td>
-    <td>[FILE Demerit_Point.png, 281px]</td> 
+    <td>[FILE Demerit_Point.png, 281px]</td>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
-    <td style="text-align:center"></td>
-  </table>
+
   
 field: LSC_subsequent_offence_no_c
 buttons: 
@@ -168,7 +165,7 @@ buttons:
 question: Penalties for First Driving Under the Influence Charge
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -190,9 +187,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
   </table>
@@ -200,13 +197,10 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Driving_Under_Influence.png, 281px]</td>
     <td>[FILE Demerit_Point.png, 281px]</td>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>
   </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
-    <td style="text-align:center"></td>
-  </table>
+
   
 field: LSC_first_offence_no_c
 buttons: 
@@ -224,7 +218,7 @@ fields:
 question: Penalties for Subsequent Driving Under the Influence with a Child Present
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -246,9 +240,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
@@ -262,12 +256,12 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Driving_Under_Influence.png, 281px]</td>
-    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+    <td>[FILE Demerit_Point.png, 281px]</td>  
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
   </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Demerit_Point.png, 281px]</td>
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
+  
+  <table style="margin-left:auto;margin-right:auto;text-align: center">
+    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
   </table>
   
 field: LSC_subsequent_offence_yes_c
@@ -279,7 +273,7 @@ buttons:
 question: Penalties for a First Driving Under the Influence Charge with a Child Present
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -301,9 +295,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
@@ -317,12 +311,12 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Driving_Under_Influence.png, 281px]</td>
-    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+    <td>[FILE Demerit_Point.png, 281px]</td>  
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
   </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Demerit_Point.png, 281px]</td>
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
+  
+  <table style="margin-left:auto;margin-right:auto;text-align: center">
+    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
   </table>
 
 field: LSC_first_offence_yes_c
@@ -351,7 +345,7 @@ fields:
 question: Penalties for a Subsequent Refusing a Alcotest Charge
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -368,26 +362,22 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
   </table>
   
   Please click **proceed** to view next steps and important resources that may assist you.
   
-  <table style="margin-left:auto;margin-right:auto">
+  <table style="margin-left:auto;margin-right:auto;text-align: center">
   <tr>
-    <td>[FILE Refusing_an_Alcohol_Test.png, 281px]</td>
+    <td>[FILE Demerit_Point.png, 281px]</td>
     <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
   </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Demerit_Point.png, 281px]</td>
-    <td style="text-align:center"></td>
-  </table>
- 
+
  
 field: LSC_subsequent_RT_no_c
 buttons: 
@@ -398,7 +388,7 @@ buttons:
 question: Penalties for a Repeat Refusing a Breath Alcohol Test Charge with a Child Present
 subquestion: |
   
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -415,9 +405,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
@@ -431,12 +421,12 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Driving_Under_Influence.png, 281px]</td>
-    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+    <td>[FILE Demerit_Point.png, 281px]</td>  
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
   </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Demerit_Point.png, 281px]</td>
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
+  
+  <table style="margin-left:auto;margin-right:auto;text-align: center">
+    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
   </table>
 
 field: LSC_subsequent_RT_yes_c
@@ -455,7 +445,7 @@ fields:
 question: Penalties for Refusing an Alcotest
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -472,24 +462,20 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
   </table>
   
   Please click **proceed** to view next steps and important resources that may assist you.
   
-  <table style="margin-left:auto;margin-right:auto">
+  <table style="margin-left:auto;margin-right:auto;text-align: center">
   <tr>
-    <td>[FILE Refusing_an_Alcohol_Test.png, 281px]</td>
+    <td>[FILE Demerit_Point.png, 281px]</td>
     <td>[FILE Interlock_Scheme.png, 281px]</td>
   </tr>
-  </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Demerit_Point.png, 281px]</td>
-    <td style="text-align:center"></td>
   </table>
    
 field: LSC_first_RT_no_c
@@ -501,7 +487,7 @@ buttons:
 question: Penalties for Refusing an Alcotest with a Child Present
 subquestion: |
   
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -518,9 +504,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
@@ -534,12 +520,12 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Driving_Under_Influence.png, 281px]</td>
-    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+    <td>[FILE Demerit_Point.png, 281px]</td>  
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
   </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Demerit_Point.png, 281px]</td>
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
+  
+  <table style="margin-left:auto;margin-right:auto;text-align: center">
+    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
   </table>
 
 field: LSC_first_RT_yes_c
@@ -599,10 +585,10 @@ fields:
 question: Penalties for Exceeding the Prescribed Concentration of Alcohol (Below 0.08)
 subquestion: |
   
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
-    <td>[FILE Serious_Offence.png, 120px]</td>
-    <td style="width:430px">
+    <td>[FILE Choice.png, 120px]</td>
+    <td>
     You can choose to <b>pay the amount</b> you may be fined for this {PCA offence}, or you are able to challenge the charge and go to <b>court</b>.
     </td>
   </tr>
@@ -622,12 +608,10 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
-  </table>
-  <table style="margin-left:auto;margin-right:auto;">
     <td>[FILE Court_Process.png, 281px]</td>
   </table>
+
   
 field: LSC_FO_PCA_low_BAC
 buttons: 
@@ -645,10 +629,11 @@ fields:
 question: Penalties for Exceeding the Prescribed Concentration of Alcohol (Between 0.08-0.15)
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
-    <td>
+    <td style="width:430px">
     For your <b>first</b> time {exceeding the PCA} by blowing between 0.08-0.15%, you may be fined between <b>$900 - $1,300</b> and gain <b>5 demerit points</b>.
     </td>
       <tr>
@@ -661,8 +646,7 @@ subquestion: |
   
   Please click **proceed** to view next steps and important resources that may assist you.
   
-  <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
+  <table style="margin-left:auto;margin-right:auto;">
     <td>[FILE Lose_Licence.png, 281px]</td>
   </table>
   
@@ -675,7 +659,7 @@ buttons:
 question: Penalties for Exceeding the Prescribed Concentration of Alcohol with a Child Present (Between 0.08-0.15)
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -690,20 +674,18 @@ subquestion: |
       <tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
     <td>
-    Since a **child under 16 was present**, you may be required to undertake an **alcohol dependence assessment** before you can drive again.
+    Since a <b>child under 16 was present</b>, you may be required to undertake an <b>alcohol dependence assessment</b> before you can drive again.
     </td>
   </tr>
   </table>
   
   Please click **proceed** to view next steps and important resources that may assist you.
   
-  <table style="margin-left:auto;margin-right:auto">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
-    <td>[FILE Lose_Licence.png, 281px]</td>
-  </table>
   <table style="margin-left:auto;margin-right:auto;text-align: center">
+    <td>[FILE Lose_Licence.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
   </table>
+
  
 field: LSC_FO_PCA_mid_BAC_yes_c
 buttons: 
@@ -721,7 +703,7 @@ fields:
 question: Penalties for Exceeding the Prescribed Concentration of Alcohol (Above 0.15) 
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -738,9 +720,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
   </table>
@@ -748,12 +730,10 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
  
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
-  </table>
-  <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Interlock_Scheme.png, 281px]</td>
   </table>
+
   
 field: LSC_PCA_FO_high_BAC_no_c
 buttons: 
@@ -764,7 +744,7 @@ buttons:
 question: Penalties for Exceeding the Prescribed Concentration of Alcohol with a Child Present (Above 0.15)
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -781,9 +761,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
@@ -797,12 +777,12 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
-    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+    <td>[FILE Lose_Licence.png, 281px]</td> 
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
   </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Lose_Licence.png, 281px]</td>
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
+  
+  <table style="margin-left:auto;margin-right:auto;text-align: center">
+    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
   </table>
 
 field: LSC_PCA_FO_high_BAC_child_y
@@ -860,10 +840,10 @@ fields:
 question: Penalties for Second Exceeding Prescribed Concentration of Alcohol (Below 0.08)
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
-    <td>
+    <td style="width:430px">
     For your <b>second</b> time {exceeding the PCA} by blowing over the limit you may be fined <b>$1,100</b> and gain <b>4 demerit points</b>.
     </td>
       <tr>
@@ -877,8 +857,8 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
+    <td>[FILE Demerit_Point.png, 281px]</td> 
   </table>
   
 field: LSC_PCA_SO_low_BAC
@@ -897,7 +877,7 @@ fields:
 question: Penalties for a Second Exceeding Prescribed Concentration of Alcohol Offence (Between 0.08 - 0.15)
 subquestion: |
   
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -914,9 +894,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
   </table>
@@ -924,12 +904,10 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
  
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
-    <td>[FILE Lose_Licence.png, 281px]</td>
+  <td>[FILE Lose_Licence.png, 281px]</td>
+  <td>[FILE Interlock_Scheme.png, 281px]</td>  
   </table>
-  <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Interlock_Scheme.png, 281px]</td>
-  </table>
+
   
 field: LSC_PCA_SO_mid_BAC_child_n
 buttons: 
@@ -940,7 +918,7 @@ buttons:
 question: Penalties for a Second Exceeding Prescribed Concentration of Alcohol Offence with Child Present (between 0.08-0.15)
 subquestion: |
   
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -957,9 +935,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
@@ -971,14 +949,14 @@ subquestion: |
   
   [BR]
   Please click **proceed** to view next steps and important resources that may assist you.
+ 
+   <table style="margin-left:auto;margin-right:auto;text-align: center">
+    <td>[FILE Lose_Licence.png, 281px]</td> 
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
+  </table>
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
-  </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Lose_Licence.png, 281px]</td>
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
   </table>
 
 field: LSC_PCA_SO_mid_BAC_child_y
@@ -997,7 +975,7 @@ fields:
 question: Penalties for a Second Exceeding Prescribed Concentration of Alcohol Offence (Above 0.15)
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -1014,9 +992,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
   </table>
@@ -1024,11 +1002,8 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
 
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
-    <td>[FILE Lose_Licence.png, 281px]</td>
-  </table>
-  <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Interlock_Scheme.png, 281px]</td>
+  <td>[FILE Lose_Licence.png, 281px]</td>
+  <td>[FILE Interlock_Scheme.png, 281px]</td>  
   </table>
   
 field: LSC_PCA_high_BAC_child_n
@@ -1040,7 +1015,7 @@ buttons:
 question: Penalties for a Second Exceeding Prescribed Concentration of Alcohol Offence with Child Present (Above 0.15)
 subquestion: |
   
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -1057,9 +1032,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
@@ -1073,12 +1048,12 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
-    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+    <td>[FILE Lose_Licence.png, 281px]</td> 
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
   </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Lose_Licence.png, 281px]</td>
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
+  
+  <table style="margin-left:auto;margin-right:auto;text-align: center">
+    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
   </table>
 
 field: LSC_PCA_high_BAC_child_y
@@ -1090,10 +1065,10 @@ buttons:
 question: Penalties for a Third Exceeding Prescribed Concentration of Alcohol Offence (Below 0.08)
 subquestion: |
   
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
-    <td>
+    <td style="width:430px">
     For your <b>third</b> time {exceeding the PCA} by blowing over the limit, you may be fined <b>$1,100</b>  and gain <b>4 demerit points</b>.
     </td>
       <tr>
@@ -1107,8 +1082,8 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
+    <td>[FILE Demerit_Point.png, 281px]</td> 
   </table>
   
 field: LSC_PCA_TO_low_BAC
@@ -1127,7 +1102,7 @@ fields:
 question: Penalties for a Third Exceeding Prescribed Concentration of Alcohol Offence with a Child Present (Between 0.08-0.15)
 subquestion: |
   
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -1144,9 +1119,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
@@ -1160,12 +1135,12 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
-    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+    <td>[FILE Lose_Licence.png, 281px]</td> 
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
   </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Lose_Licence.png, 281px]</td>
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
+  
+  <table style="margin-left:auto;margin-right:auto;text-align: center">
+    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
   </table>
  
 field: LSC_PCA_TO_mid_BAC_child_y
@@ -1177,7 +1152,7 @@ buttons:
 question: Penalties for a Third Exceeding Prescribed Concentration of Alcohol Offence (Between 0.08 - 0.15)
 subquestion: |
   
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -1194,9 +1169,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
   </table>
@@ -1204,12 +1179,10 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
  
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
-  </table>
-  <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Interlock_Scheme.png, 281px]</td>
   </table>
+
  
 field: LSC_PCA_TO_mid_BAC_child_n
 buttons: 
@@ -1228,7 +1201,7 @@ fields:
 question: Penalties for a Third Exceeding Prescribed Concentration of Alcohol Offence with a Child Present (Above 0.15)
 subquestion: |
   
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -1245,9 +1218,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
@@ -1259,14 +1232,14 @@ subquestion: |
   
   [BR]
   Please click **proceed** to view next steps and important resources that may assist you.
+
+  <table style="margin-left:auto;margin-right:auto;text-align: center">
+    <td>[FILE Lose_Licence.png, 281px]</td> 
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
+  </table>
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
-  </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Lose_Licence.png, 281px]</td>
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
   </table>
 
 field: LSC_PCA_TO_high_BAC_child_y
@@ -1278,7 +1251,7 @@ buttons:
 question: Penalties for a Third Exceeding Prescribed Concentration of Alcohol Offence (Above 0.15)
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -1295,9 +1268,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
   </table>
@@ -1305,12 +1278,10 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
  
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
   </table>
-  <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Interlock_Scheme.png, 281px]</td>
-  </table>
+
   
 field: LSC_PCA_TO_high_BAC_child_n
 buttons: 
@@ -1321,10 +1292,10 @@ buttons:
 question: Penalties for a Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence (Below 0.08)
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
-    <td>
+    <td style="width:430px">
     If you have {exceeded the PCA} by blowing over the limit <b>more than three times previously</b>, you may be fined <b>$1,100</b> and gain <b>4 demerit points</b>.
     </td>
       <tr>
@@ -1338,8 +1309,8 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
+    <td>[FILE Demerit_Point.png, 281px]</td> 
   </table>
 
 field: LSC_SUB_low_BAC
@@ -1358,7 +1329,7 @@ fields:
 question: Penalties for a Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence with a Child Present (Between 0.08-0.15)
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -1375,9 +1346,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
@@ -1389,14 +1360,14 @@ subquestion: |
   
   [BR]
   Please click **proceed** to view next steps and important resources that may assist you.
+
+  <table style="margin-left:auto;margin-right:auto;text-align: center">
+    <td>[FILE Lose_Licence.png, 281px]</td> 
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
+  </table>
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
-  </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Lose_Licence.png, 281px]</td>
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
   </table>
 
 field: LSC_PCA_SUB_mid_BAC_child_y
@@ -1408,7 +1379,7 @@ buttons:
 question: Penalties for a Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence (Between 0.08 - 0.15)
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -1425,9 +1396,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
   </table>
@@ -1435,11 +1406,8 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
  
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
-  </table>
-  <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Interlock_Scheme.png, 281px]</td>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
   </table>
   
 field: LSC_PCA_SUB_mid_BAC_child_n
@@ -1458,7 +1426,7 @@ fields:
 question: Penalties for a Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence with Child a Present (Above 0.15)
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -1475,9 +1443,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
     <td>[FILE Alcohol_Dependency_Book.png, 120px]</td>
@@ -1491,12 +1459,12 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
-    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
+    <td>[FILE Lose_Licence.png, 281px]</td> 
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
   </table>
-  <table style="margin-left:auto;margin-right:auto;">
-    <td>[FILE Lose_Licence.png, 281px]</td>
-    <td>[FILE Interlock_Scheme.png, 265px]</td>
+  
+  <table style="margin-left:auto;margin-right:auto;text-align: center">
+    <td>[FILE Alcohol_Dependancy_Assessment.png, 281px]</td>
   </table>
 
 field: LSC_PCA_SUB_high_BAC_child_y
@@ -1508,7 +1476,7 @@ buttons:
 question: Penalties for a Fourth or Subsequent Exceeding Prescribed Concentration of Alcohol Offence (Above 0.15)
 subquestion: |
 
-  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: center">
+  <table style="width:580px;margin-left:auto;margin-right:50px;table-layout:fixed;text-align: left">
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
@@ -1525,9 +1493,9 @@ subquestion: |
     <td>
     This offence is <b>serious</b> enough that you may have an <b>alcohol interlock device</b> installed in your vehicle for the <b>same duration as your licence disqualification period</b> or for <b>36 months (whichever is shorter)</b>.
   
-  This device is about the size of a smartphone and will be attached to your car. You may be responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offence. 
+  You may be responsible for all the costs involved in installing and maintaining it. Breaking the device is considered an offence. 
   
-  You should be given specific conditions beforehand, but if you want more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
+  You will be given conditions for using the device specific to your punishment. For more information  <a href="https://www.dit.sa.gov.au/__data/assets/pdf_file/0009/78282/MR1355_The_Mandatory_Alcohol_Interlock_Scheme.pdf">click here</a>.
     </td>
   </tr>
   </table>
@@ -1535,11 +1503,8 @@ subquestion: |
   Please click **proceed** to view next steps and important resources that may assist you.
  
   <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Exceeding_PCA.png, 281px]</td>
     <td>[FILE Lose_Licence.png, 281px]</td>
-  </table>
-  <table style="margin-left:auto;margin-right:auto;text-align: center">
-    <td>[FILE Interlock_Scheme.png, 281px]</td>
+    <td>[FILE Interlock_Scheme.png, 281px]</td>    
   </table>
   
 field: LSC_PCA_SUB_high_BAC_child_n
