@@ -57,6 +57,7 @@ subquestion: |
 buttons: 
   - Exit: exit
     color: danger
+    url: https://lsc.sa.gov.au/
   - Restart: restart
 ---
 question: DriveWise has been made to provide information about drink driving offences
@@ -159,6 +160,7 @@ subquestion: |
 buttons: 
   - Exit: exit
     color: danger
+    url: https://lsc.sa.gov.au/
   - Restart: restart 
 ---
 # DUI SCREENS - KYLA
