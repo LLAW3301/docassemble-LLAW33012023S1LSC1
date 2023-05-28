@@ -135,7 +135,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
   
 
   <table style="margin-left:auto;margin-right:auto;">
@@ -566,7 +566,7 @@ buttons:
 ---
 question: Exceeding the Prescribed Concentration of Alcohol 
 subquestion: |
-  Is this your **first time** being charged with **{Exceeding the Prescribed Concentration of Alcohol}**?
+  Is this your **first** time being charged with **{Exceeding the Prescribed Concentration of Alcohol}**?
 fields:
   - no label: LSC_PCA_first_offence_question
     datatype: yesnoradio 
@@ -605,7 +605,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td>
@@ -634,7 +634,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>first</b> time {exceeding the PCA} by blowing between 0.08-0.15%, you may be fined between <b>$900 - $1,300</b> and gain <b>5 demerit points</b>.
+    For your <b>first</b> time {exceeding the PCA} by blowing between 0.08 and 0.15%, you may be fined between <b>$900 - $1,300</b> and gain <b>5 demerit points</b>.
     </td>
       <tr>
     <td>[FILE No_Driving.png, 120px]</td>
@@ -644,7 +644,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;">
     <td>[FILE Lose_Licence.png, 281px]</td>
@@ -663,7 +663,7 @@ subquestion: |
   <tr>
     <td>[FILE Money.png, 120px]</td>
     <td style="width:430px">
-    For your <b>first time</b> {exceeding the PCA} by blowing between 0.08-0.15%, you may be fined between <b>$900 - $1,300</b> and gain <b>5 demerit point</b>.
+    For your <b>first</b> time {exceeding the PCA} by blowing between 0.08 and 0.15%, you may be fined between <b>$900 - $1,300</b> and gain <b>5 demerit point</b>.
     </td>
   </tr>
   <tr>
@@ -679,7 +679,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td>
@@ -727,7 +727,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
  
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td>
@@ -774,7 +774,7 @@ subquestion: |
   </table>
   
   [BR]
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td> 
@@ -854,7 +854,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto">
     <td>[FILE Lose_Licence.png, 281px]</td>
@@ -901,7 +901,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
  
   <table style="margin-left:auto;margin-right:auto;text-align: center">
   <td>[FILE Lose_Licence.png, 281px]</td>
@@ -948,7 +948,7 @@ subquestion: |
   </table>
   
   [BR]
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
  
    <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td> 
@@ -999,7 +999,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
 
   <table style="margin-left:auto;margin-right:auto;text-align: center">
   <td>[FILE Lose_Licence.png, 281px]</td>
@@ -1045,7 +1045,7 @@ subquestion: |
   </table>
   
   [BR]
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td> 
@@ -1079,7 +1079,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto">
     <td>[FILE Lose_Licence.png, 281px]</td>
@@ -1132,7 +1132,7 @@ subquestion: |
   </table>
   
   [BR]
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td> 
@@ -1176,7 +1176,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
  
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td>
@@ -1231,7 +1231,7 @@ subquestion: |
   </table>
   
   [BR]
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
 
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td> 
@@ -1275,7 +1275,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
  
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td>
@@ -1306,7 +1306,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto">
     <td>[FILE Lose_Licence.png, 281px]</td>
@@ -1359,7 +1359,7 @@ subquestion: |
   </table>
   
   [BR]
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
 
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td> 
@@ -1403,7 +1403,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
  
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td>
@@ -1456,7 +1456,7 @@ subquestion: |
   </table>
   
   [BR]
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
   
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td> 
@@ -1500,7 +1500,7 @@ subquestion: |
   </tr>
   </table>
   
-  Please click **proceed** to view next steps and important resources that may assist you.
+  Please click **proceed** below to view next steps and important resources that may assist you.
  
   <table style="margin-left:auto;margin-right:auto;text-align: center">
     <td>[FILE Lose_Licence.png, 281px]</td>
